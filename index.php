@@ -1,4 +1,5 @@
-	<div class="main">
+<div class="main">
+
         <?partial('topslider')?>
         <?partial('quastion')?>
         <?partial('quastionform')?>
@@ -11,4 +12,5 @@
         <?partial('quality')?>
         <?partial('sertification')?>
         <?partial('portfolio')?>
-	</div>
+
+</div>
