@@ -10,6 +10,8 @@
 
 	<title></title>
 
+	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+
 	<link rel="stylesheet" href="css/bootstrap.css" media="all" />
 	<link rel="stylesheet" href="css/bootstrap-theme.css" media="all" />
 

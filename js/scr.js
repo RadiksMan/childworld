@@ -236,6 +236,20 @@ function animationBlock(item){
     checkForAnimate();
 }
 
+function sliderTopInit(){
+
+    $('.topSlider-main').slick({
+        dots:true,
+        arrows:true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true,
+        cssEase: 'linear'
+    });
+
+}
+
 /* DOCUMENT READY  */
 $(document).ready(function() {
 	modernize();
@@ -246,7 +260,7 @@ $(document).ready(function() {
 
 $(window).load(function(){
 
-
+    sliderTopInit();
 
 });
 
