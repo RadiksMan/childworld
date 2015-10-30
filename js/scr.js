@@ -254,6 +254,7 @@ function sliderTopInit(){
 
 /* DOCUMENT READY  */
 $(document).ready(function() {
+    scrollUp('.footer-bottom-button','.header')
 	modernize();
 	$('.footer_placeholder').height($('.footer').outerHeight());
 
