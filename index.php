@@ -7,7 +7,7 @@
         <?partial('coveralbum')?>
         <?partial('grafic')?>
         <?partial('school')?>
-        <?partial('school')?>
+        <?partial('school2')?>
         <?partial('quality')?>
         <?partial('sertification')?>
         <?partial('portfolio')?>

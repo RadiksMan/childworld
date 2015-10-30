@@ -1,8 +1,8 @@
-<div class="special-for-bg survey">
-    <div class="container survey-content">
+<div class="special-for-bg school">
+    <div class="container survey-content ">
         <div class="row survey-header-wrap">
             <div class="col-sm-12 survey-header">
-                <p>Съемка в детском саду</p>
+                <p>Съемка в школе</p>
             </div>
         </div>
 
