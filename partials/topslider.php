@@ -1,5 +1,9 @@
 <div class="topSlider">
-    <div class="topSlider-title">Профессиональная фотосъёмка в детских садах и школах</div>
+    <div class="topSlider-title container">
+        <div class="row">
+            <div class="col-xs-12">Профессиональная фотосъёмка в детских садах и школах</div>
+        </div>
+    </div>
     <div class="topSlider-main">
         <div class="topSlider-item">
             <div class="topSlider-img">
