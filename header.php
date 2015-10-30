@@ -10,8 +10,8 @@
 
 	<title></title>
 
-	<!--<link rel="stylesheet" href="css/bootstrap.css" media="all" />
-	<link rel="stylesheet" href="css/bootstrap-theme.css" media="all" />-->
+	<link rel="stylesheet" href="css/bootstrap.css" media="all" />
+	<link rel="stylesheet" href="css/bootstrap-theme.css" media="all" />
 
 	<link rel="stylesheet" type="text/css" href="css/style_basic.css" media="all" />
 
