@@ -1,3 +1,17 @@
 .survey-content{ background-color: #ffe1dd;
-
+    .survey-header-wrap{
+        .survey-header{
+            p{ text-align: center; font-family: 'PT Sans'; font-size:36px; ;font-weight: 400;}
+        }
+    }
+    .children-box-wrap{
+        .children-box-coll{
+            .box-imges{
+                a{
+                    img{ width: 39%; margin-left: 5%; margin-right: 5%; }
+                }
+            }
+            p{font-family: 'PT Sans'; font-size:18px; ;font-weight: 400; padding: 0 20px;}
+        }
+    }
 }
