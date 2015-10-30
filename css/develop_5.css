@@ -1,0 +1,15 @@
+.footer .if_quastion {
+  background: url(../images/footer_bg.jpg) left top repeat-x;
+}
+
+.footer .if_quastion_wrap {
+  color: white;
+}
+
+.footer .if_quastion_wrap .if_quastion_title h5 {
+  font-size: 60px;
+}
+
+.footer .if_quastion_wrap .if_quastion_right {
+  font-size: 24px;
+}
