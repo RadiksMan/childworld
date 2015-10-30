@@ -1,11 +1,14 @@
-	<div class="main mbox">
-		<section class="content_w">
-			<div class="content">
-				<?partial('testcontent')?>
-			</div>
-		</section>
-		<aside class="sidebar_w">
-			<div class="sidebar"></div>
-		</aside>
-		<div class="clear"></div>
+	<div class="main">
+        <?partial('topslider')?>
+        <?partial('quastion')?>
+        <?partial('quastionform')?>
+        <?partial('survey')?>
+        <?partial('decoration')?>
+        <?partial('coveralbum')?>
+        <?partial('grafic')?>
+        <?partial('school')?>
+        <?partial('school')?>
+        <?partial('quality')?>
+        <?partial('sertification')?>
+        <?partial('portfolio')?>
 	</div>
