@@ -3,8 +3,8 @@
         <?partial('quastion')?>
         <?partial('quastionform')?>
         <?partial('survey')?>
-        <?partial('decoration')?>
-        <?partial('coveralbum')?>
+        <?partial('decoration-slider')?>
+        <?partial('coveralbum-slider')?>
         <?partial('grafic')?>
         <?partial('school')?>
         <?partial('school')?>
