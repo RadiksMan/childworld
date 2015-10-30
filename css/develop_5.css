@@ -1,5 +1,11 @@
 .footer .if_quastion {
   background: url(../images/footer_bg.jpg) left top repeat-x;
+  padding: 44px 0px 50px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: block;
 }
 
 .footer .if_quastion_wrap {
@@ -12,4 +18,75 @@
 
 .footer .if_quastion_wrap .if_quastion_right {
   font-size: 24px;
+  padding-top: 15px;
+}
+
+.footer .if_quastion_wrap .if_quastion_right a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer .if_quastion_wrap .if_quastion_right a.footer-mail {
+  text-decoration: underline;
+}
+
+.footer .if_quastion_wrap .if_quastion_right a.footer-mail:hover {
+  text-decoration: none;
+}
+
+.footer .footer-bottom {
+  background-color: #3a3a3a;
+  font-size: 18px;
+  padding: 21px 0px;
+}
+
+.footer .footer-bottom .footer-bottom-inform {
+  text-transform: uppercase;
+}
+
+.footer .footer-bottom .footer-bottom-inform a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer .footer-bottom .footer-bottom-inform a:hover {
+  opacity: .8;
+}
+
+.footer .footer-bottom .footer-bottom-button a {
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.footer .footer-bottom .footer-bottom-button a:hover {
+  opacity: .8;
+}
+
+.footer .footer-bottom .footer-bottom-button .icon-footer-top {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid white;
+  vertical-align: middle;
+  position: relative;
+}
+
+.footer .footer-bottom .footer-bottom-button .icon-footer-top:after {
+  position: absolute;
+  border-bottom: 5px solid white;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  bottom: 6px;
+  content: '';
+  left: 5px;
+}
+
+.footer .footer-bottom .footer-bottom-button span {
+  vertical-align: middle;
 }

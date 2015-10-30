@@ -1,9 +1,31 @@
 .footer{
-    .if_quastion{background: url(../images/footer_bg.jpg) left top repeat-x;}
+    .if_quastion{background: url(../images/footer_bg.jpg) left top repeat-x;padding: 44px 0px 50px;background-size: cover;display: block;}
     .if_quastion_wrap{color: white;
         .if_quastion_title{
             h5{font-size: 60px;}
         }
-        .if_quastion_right{font-size: 24px;}
+        .if_quastion_right{font-size: 24px;padding-top: 15px;
+            a{color: white;text-decoration: none;
+                &.footer-mail{text-decoration: underline;
+                    &:hover{text-decoration: none;}
+                }
+            }
+        }
+    }
+    .footer-bottom{background-color: #3a3a3a;font-size: 18px;padding: 21px 0px;
+        .footer-bottom-inform{text-transform: uppercase;
+            a{color: white;text-decoration: none;
+                &:hover{opacity: .8;}
+            }
+        }
+        .footer-bottom-button{
+            a{color: white;text-transform: uppercase;display: inline-block;vertical-align: middle;text-decoration: none;
+                &:hover{opacity: .8;}
+            }
+            .icon-footer-top{display: inline-block;height: 20px;width: 20px;border-radius: 50%;border:2px solid white;vertical-align: middle;position: relative;
+                &:after{position: absolute;border-bottom: 5px solid white;border-left: 3px solid transparent;border-right: 3px solid transparent;bottom: 6px;content: '';left: 5px;}
+            }
+            span{vertical-align: middle;}
+        }
     }
 }
