@@ -1,4 +1,10 @@
-<div class="special-for-bg survey">
+<div class="spec-background-wrap survey">
+    <div class="spec-background spec-flower3">
+        <div class="top-shadow"></div>
+        <div class="spec-flower-bg first-flower"></div>
+        <div class="spec-flower-bg second-flower"></div>
+        <div class="bottom-shadow"></div>
+    </div>
     <div class="container survey-content">
         <div class="row children-box-wrap">
             <div class="title-wrap">
