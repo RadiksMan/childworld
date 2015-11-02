@@ -59,6 +59,11 @@
 
 <!-- /mask for inputs -->
 
+	<!-- ui -->
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" media="all" />
+	<script src="js/jquery-ui.js" type="text/javascript"></script>
+	<!-- /ui -->
+
 <!-- sliders -->
 	<link rel="stylesheet" type="text/css" href="css/slick.css" media="all" />
 	<script src="js/slick.js" type="text/javascript"></script>
@@ -83,6 +88,30 @@
 
 <!-- /google Maps -->
 
+<script>
+	    	var calendar = [
+	    			{
+	    				mounthNum:10,
+	    				mounthDays:[
+		    				{
+		    					dayNum:30,
+		    					dayType:'sorry'
+		    				}
+		    			]
+
+	    			}
+	    		,
+	    			{
+	    				mounthNum:11,
+		    			mounthDays:[
+		    				{
+		    					dayNum:30,
+		    					dayType:'sorry'
+		    				}
+		    			]
+		    		}
+	    		]
+</script>
 <!-- remove Files -->
 
 	<script src="js/develop_4.js" type="text/javascript"></script>

@@ -7,8 +7,42 @@
   padding-top: 55px;
 }
 
+.title-wrap .title {
+  opacity: 0;
+  -webkit-transform: translate(0, 20%);
+  -moz-transform: translate(0, 20%);
+  -ms-transform: translate(0, 20%);
+  -o-transform: translate(0, 20%);
+  transform: translate(0, 20%);
+  -webkit-transition: opacity 500ms ease, -webkit-transform 300ms ease;
+  -moz-transition: opacity 500ms ease, -moz-transform 300ms ease;
+  -o-transition: opacity 500ms ease, -o-transform 300ms ease;
+  transition: opacity 500ms ease, transform 300ms ease;
+}
+
+.title-wrap .title.animated {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
 /* /titles styled */
 /* topSlider */
+.topSlider-main {
+  opacity: 0;
+  -webkit-transition: opacity 300ms ease;
+  -moz-transition: opacity 300ms ease;
+  -o-transition: opacity 300ms ease;
+  transition: opacity 300ms ease;
+}
+
+.topSlider-main.animated {
+  opacity: 1;
+}
+
 .topSlider-main .slick-arrow {
   font-size: 0;
   color: transparent;
@@ -129,6 +163,25 @@
   background-color: #fff;
   font-size: 18px;
   color: #000000;
+  opacity: 0;
+  -webkit-transform: translate(0, -20%);
+  -moz-transform: translate(0, -20%);
+  -ms-transform: translate(0, -20%);
+  -o-transform: translate(0, -20%);
+  transform: translate(0, -20%);
+  -webkit-transition: opacity 500ms ease 300ms, -webkit-transform 300ms ease 300ms;
+  -moz-transition: opacity 500ms ease 300ms, -moz-transform 300ms ease 300ms;
+  -o-transition: opacity 500ms ease 300ms, -o-transform 300ms ease 300ms;
+  transition: opacity 500ms ease 300ms, transform 300ms ease 300ms;
+}
+
+.topSlider-description .topSlider-description-item.animated {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
 }
 
 .topSlider-img {
@@ -160,8 +213,20 @@
   margin-bottom: 0;
 }
 
-.decoration-slider-main :focus, .coveralbum-slider-main :focus {
+.decoration-slider-main:focus, .coveralbum-slider-main:focus {
   outline: none;
+}
+
+.decoration-slider-main .decoration-slider-item, .decoration-slider-main .coveralbum-slider-item, .coveralbum-slider-main .decoration-slider-item, .coveralbum-slider-main .coveralbum-slider-item {
+  opacity: 0;
+  -webkit-transition: opacity 500ms ease;
+  -moz-transition: opacity 500ms ease;
+  -o-transition: opacity 500ms ease;
+  transition: opacity 500ms ease;
+}
+
+.decoration-slider-main .decoration-slider-item.animated, .decoration-slider-main .coveralbum-slider-item.animated, .coveralbum-slider-main .decoration-slider-item.animated, .coveralbum-slider-main .coveralbum-slider-item.animated {
+  opacity: 1;
 }
 
 .decoration-slider-main .slick-arrow, .coveralbum-slider-main .slick-arrow {
@@ -330,28 +395,36 @@
 .spec-background .spec-flower-bg {
   position: absolute;
   top: 50%;
-  opacity: .2;
+  opacity: 0;
+  -webkit-transition: opacity 500ms ease, -webkit-transform 300ms ease;
+  -moz-transition: opacity 500ms ease, -moz-transform 300ms ease;
+  -o-transition: opacity 500ms ease, -o-transform 300ms ease;
+  transition: opacity 500ms ease, transform 300ms ease;
 }
 
 .spec-background .spec-flower-bg.first-flower {
   left: 0;
-  -webkit-transform: translate(-25%, -50%);
-  -moz-transform: translate(-25%, -50%);
-  -ms-transform: translate(-25%, -50%);
-  -o-transform: translate(-25%, -50%);
-  transform: translate(-25%, -50%);
+  -webkit-transform: translate(-100%, -50%);
+  -moz-transform: translate(-100%, -50%);
+  -ms-transform: translate(-100%, -50%);
+  -o-transform: translate(-100%, -50%);
+  transform: translate(-100%, -50%);
 }
 
 .spec-background .spec-flower-bg.second-flower {
   right: 0;
-  -webkit-transform: translate(25%, -50%);
-  -moz-transform: translate(25%, -50%);
-  -ms-transform: translate(25%, -50%);
-  -o-transform: translate(25%, -50%);
-  transform: translate(25%, -50%);
+  -webkit-transform: translate(100%, -50%);
+  -moz-transform: translate(100%, -50%);
+  -ms-transform: translate(100%, -50%);
+  -o-transform: translate(100%, -50%);
+  transform: translate(100%, -50%);
 }
 
-.spec-background.spec-flower1 .spec-flower-bg.first-flower {
+.spec-background .spec-flower-bg.animated {
+  opacity: .2;
+}
+
+.spec-background.spec-flower1 .spec-flower-bg.animated.first-flower {
   -webkit-transform: translate(-51%, -60%);
   -moz-transform: translate(-51%, -60%);
   -ms-transform: translate(-51%, -60%);
@@ -359,7 +432,7 @@
   transform: translate(-51%, -60%);
 }
 
-.spec-background.spec-flower1 .spec-flower-bg.second-flower {
+.spec-background.spec-flower1 .spec-flower-bg.animated.second-flower {
   -webkit-transform: translate(25%, -44%);
   -moz-transform: translate(25%, -44%);
   -ms-transform: translate(25%, -44%);
@@ -367,7 +440,7 @@
   transform: translate(25%, -44%);
 }
 
-.spec-background.spec-flower2 .spec-flower-bg.first-flower {
+.spec-background.spec-flower2 .spec-flower-bg.animated.first-flower {
   -webkit-transform: translate(-25%, -50%);
   -moz-transform: translate(-25%, -50%);
   -ms-transform: translate(-25%, -50%);
@@ -375,7 +448,7 @@
   transform: translate(-25%, -50%);
 }
 
-.spec-background.spec-flower2 .spec-flower-bg.second-flower {
+.spec-background.spec-flower2 .spec-flower-bg.animated.second-flower {
   -webkit-transform: translate(31%, -61%);
   -moz-transform: translate(31%, -61%);
   -ms-transform: translate(31%, -61%);
@@ -383,7 +456,7 @@
   transform: translate(31%, -61%);
 }
 
-.spec-background.spec-flower3 .spec-flower-bg.first-flower, .spec-background.spec-flower4 .spec-flower-bg.first-flower {
+.spec-background.spec-flower3 .spec-flower-bg.animated.first-flower, .spec-background.spec-flower4 .spec-flower-bg.animated.first-flower {
   -webkit-transform: translate(-52%, -43%);
   -moz-transform: translate(-52%, -43%);
   -ms-transform: translate(-52%, -43%);
@@ -391,7 +464,7 @@
   transform: translate(-52%, -43%);
 }
 
-.spec-background.spec-flower3 .spec-flower-bg.second-flower, .spec-background.spec-flower4 .spec-flower-bg.second-flower {
+.spec-background.spec-flower3 .spec-flower-bg.animated.second-flower, .spec-background.spec-flower4 .spec-flower-bg.animated.second-flower {
   -webkit-transform: translate(0%, -63%);
   -moz-transform: translate(0%, -63%);
   -ms-transform: translate(0%, -63%);
@@ -399,7 +472,7 @@
   transform: translate(0%, -63%);
 }
 
-.spec-background.spec-flower5 .spec-flower-bg.first-flower {
+.spec-background.spec-flower5 .spec-flower-bg.animated.first-flower {
   -webkit-transform: translate(-19%, -82%);
   -moz-transform: translate(-19%, -82%);
   -ms-transform: translate(-19%, -82%);
@@ -407,7 +480,7 @@
   transform: translate(-19%, -82%);
 }
 
-.spec-background.spec-flower5 .spec-flower-bg.second-flower {
+.spec-background.spec-flower5 .spec-flower-bg.animated.second-flower {
   -webkit-transform: translate(52%, -23%);
   -moz-transform: translate(52%, -23%);
   -ms-transform: translate(52%, -23%);
