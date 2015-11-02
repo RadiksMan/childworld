@@ -1,10 +1,10 @@
 <div class="spec-background-wrap quality-work ">
-    <div class="spec-background spec-flower5">
+    <div class="spec-background section-animate spec-flower5">
         <div class="top-shadow"></div>
-        <div class="spec-flower-bg first-flower">
+        <div class="spec-flower-bg first-flower animate-it">
             <img src="images/flower5-background-left.png"  alt="" />
         </div>
-        <div class="spec-flower-bg second-flower">
+        <div class="spec-flower-bg second-flower animate-it">
             <img src="images/flower5-background-right.png" alt="" />
         </div>
         <div class="bottom-shadow"></div>
@@ -12,8 +12,8 @@
 
     <div class="container quality-work-content ">
         <div class="row quality-work-wrap section-animate">
-            <div class="title-wrap">
-                <div class="title">
+            <div class="title-wrap section-animate">
+                <div class="title animate-it">
                     <p>Съемка в школе</p>
                 </div>
             </div>
