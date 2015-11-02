@@ -176,54 +176,101 @@
 
 /* /grafic */
 /* portfolio */
-.portfolio-section .portfolio {
+.portfolio {
   background-color: #0C4152;
   position: relative;
 }
 
-.portfolio-section .portfolio .portfolio-wrap {
-  height: 100px;
-}
-
-.portfolio-section .portfolio .portfolio-wrap .portfolio-title {
+.portfolio .portfolio-title {
   font-family: 'PT Sans';
   font-weight: 700;
   color: #fff;
+  opacity: 0;
+  -webkit-transform: translate(-30%, 0);
+  -moz-transform: translate(-30%, 0);
+  -ms-transform: translate(-30%, 0);
+  -o-transform: translate(-30%, 0);
+  transform: translate(-30%, 0);
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 
-.portfolio-section .portfolio .portfolio-wrap .portfolio-title h2 {
+.portfolio .portfolio-title.animated {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.portfolio .portfolio-title h2 {
   font-size: 48px;
   letter-spacing: -2px;
   margin-bottom: 20px;
 }
 
-.portfolio-section .portfolio .portfolio-wrap .portfolio-title p {
+.portfolio .portfolio-title p {
   font-size: 30px;
 }
 
-.portfolio-section .portfolio .portfolio-wrap .portfolio-title p span {
+.portfolio .portfolio-title p span {
   text-transform: uppercase;
   display: block;
   padding-bottom: 50px;
 }
 
-.portfolio-section .portfolio .portfolio-wrap .portfolio-image .portfolio-image-wrap {
+.portfolio .portfolio-image-wrap {
   top: -45px;
   position: absolute;
+  opacity: 0;
+  -webkit-transform: translate(30%, 0);
+  -moz-transform: translate(30%, 0);
+  -ms-transform: translate(30%, 0);
+  -o-transform: translate(30%, 0);
+  transform: translate(30%, 0);
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 
-.portfolio-section .portfolio .portfolio-wrap .portfolio-form .portfolio-form-wrap {
+.portfolio .portfolio-image-wrap.animated {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.portfolio .portfolio-form {
+  margin-top: -60px;
   position: relative;
-  left: 100%;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  transform: translateX(-50%);
-  top: -60px;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  opacity: 0;
+  -webkit-transform: translate(20%, 0);
+  -moz-transform: translate(20%, 0);
+  -ms-transform: translate(20%, 0);
+  -o-transform: translate(20%, 0);
+  transform: translate(20%, 0);
 }
 
-.portfolio-section .portfolio .portfolio-wrap .portfolio-form .portfolio-form-wrap .form-wrap .input-wrap input {
+.portfolio .portfolio-form.animated {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.portfolio .portfolio-form .input-wrap input {
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -o-transition: all 500ms ease;
@@ -241,34 +288,34 @@
   padding: 7px 3px 7px 10px;
 }
 
-.portfolio-section .portfolio .portfolio-wrap .portfolio-form .portfolio-form-wrap .form-wrap .input-wrap input:hover, .portfolio-section .portfolio .portfolio-wrap .portfolio-form .portfolio-form-wrap .form-wrap .input-wrap input:active, .portfolio-section .portfolio .portfolio-wrap .portfolio-form .portfolio-form-wrap .form-wrap .input-wrap input:focus {
+.portfolio .portfolio-form .input-wrap input:hover, .portfolio .portfolio-form .input-wrap input:active, .portfolio .portfolio-form .input-wrap input:focus {
   border: 1px solid #A0A0A0;
 }
 
-.portfolio-section .portfolio .portfolio-wrap .portfolio-form .portfolio-form-wrap .form-wrap .input-wrap input.error {
+.portfolio .portfolio-form .input-wrap input.error {
   border: 1px solid #f00;
   -webkit-box-shadow: inset 0px 0px 10px 1px red;
   -moz-box-shadow: inset 0px 0px 10px 1px red;
   box-shadow: inset 0px 0px 10px 1px red;
 }
 
-.portfolio-section .portfolio .portfolio-wrap .portfolio-form .portfolio-form-wrap .form-wrap .input-wrap input::-webkit-input-placeholder {
+.portfolio .portfolio-form .input-wrap input::-webkit-input-placeholder {
   color: #414141;
 }
 
-.portfolio-section .portfolio .portfolio-wrap .portfolio-form .portfolio-form-wrap .form-wrap .input-wrap input::-moz-placeholder {
+.portfolio .portfolio-form .input-wrap input::-moz-placeholder {
   color: #414141;
 }
 
-.portfolio-section .portfolio .portfolio-wrap .portfolio-form .portfolio-form-wrap .form-wrap .input-wrap input:-moz-placeholder {
+.portfolio .portfolio-form .input-wrap input:-moz-placeholder {
   color: #414141;
 }
 
-.portfolio-section .portfolio .portfolio-wrap .portfolio-form .portfolio-form-wrap .form-wrap .input-wrap input:-ms-input-placeholder {
+.portfolio .portfolio-form .input-wrap input:-ms-input-placeholder {
   color: #414141;
 }
 
-.portfolio-section .portfolio .portfolio-wrap .portfolio-form .portfolio-form-wrap .form-wrap .input-wrap-submit input {
+.portfolio .portfolio-form .input-wrap-submit input {
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -295,7 +342,7 @@
   color: #fff;
 }
 
-.portfolio-section .portfolio .portfolio-wrap .portfolio-form .portfolio-form-wrap .form-wrap .input-wrap-submit input:hover, .portfolio-section .portfolio .portfolio-wrap .portfolio-form .portfolio-form-wrap .form-wrap .input-wrap-submit input:active, .portfolio-section .portfolio .portfolio-wrap .portfolio-form .portfolio-form-wrap .form-wrap .input-wrap-submit input:focus {
+.portfolio .portfolio-form .input-wrap-submit input:hover, .portfolio .portfolio-form .input-wrap-submit input:active, .portfolio .portfolio-form .input-wrap-submit input:focus {
   background: #57cb00;
   background: -moz-linear-gradient(top, #57cb00 0%, #57b200 50%, #3f8900 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #57cb00), color-stop(50%, #57b200), color-stop(100%, #3f8900));
