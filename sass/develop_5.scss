@@ -82,3 +82,40 @@
         }
     }
 }
+
+.datepiker-wrap{padding-bottom: 21px;display: none;
+    &.show{display: block;}
+    .datepiker-kalendar{min-height: 460px;}
+    &>*{box-sizing:border-box;}
+    .ui-widget-content{background-color: #e0e0e0;border:none;padding: 20px;padding-top: 5px;box-shadow: 7px 8px 14px 3px rgba(212, 212, 212, 0.78);}
+    .ui-datepicker .ui-datepicker-title{font-weight: bold;color: #535353;font-size: 30px;}
+    .ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next{
+        width: 22px;height: 22px;border-left:18px solid grey;border-top:13px solid transparent;border-bottom:13px solid transparent;background:none;border-radius:0px;right: 0;top: 22px;
+    }
+    .ui-datepicker .ui-datepicker-prev{border-right:18px solid grey;border-left:none;}
+    .ui-datepicker td {border: 2px solid white;
+        &.engaged{background: linear-gradient(180deg, rgb(67, 142, 173) 49%, rgb(54, 132, 165) 51%);}
+    }
+    .ui-datepicker-calendar tbody tr{border:none;background: linear-gradient(180deg, rgb(127, 189, 107) 49%, rgb(116, 182, 95) 51%);}
+    .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{font-size: 30px;color: white;border-radius: 0;border:none;margin:0;width: auto;height: auto;display: block;text-align: center;line-height: 55px;}
+    .ui-datepicker-year{font-size: inherit;}
+    .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{background-color: inherit;opacity: .6;}
+    .ui-datepicker-today{
+        a{box-shadow: inset 0px 0px 0px 2px red;}
+    }
+    .ui-datepicker-other-month{background-color: #e8e8e8;
+        a{color: #b7b7b7 !important;}
+    }
+    .ui-datepicker .ui-datepicker-header{padding-bottom: 10px;}
+    h5{font-size: 36px;padding-top: 20px;padding-bottom: 32px;}
+    .datepiker-text{padding-bottom: 32px;}
+    .datepiker-text-row{padding-bottom: 5px;
+        .datepiker-text-date{display: inline-block;height: 40px;width: 40px;text-align: center;background: linear-gradient(180deg, rgb(67, 142, 173) 49%, rgb(54, 132, 165) 51%);float: left;margin-right: 17px;
+            span{color: white;font-size: 24px;line-height: 40px;}
+        }
+        .datepiker-text-desc{font-size: 18px;
+            p{padding-top: 5px;}
+        }
+    }
+    .datepiker-sub-text{font-size: 18px;margin-bottom: 15px;}
+}
