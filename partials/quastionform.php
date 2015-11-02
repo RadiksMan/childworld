@@ -1,14 +1,14 @@
 <div class="quastionform">
-    <div class="quastionform-wrap">
+    <div class="quastionform-wrap  section-animate">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12 animate-delay">
                     <div class="quastionform-title text-center">
                         <h2>Возникли вопросы? Звоните</h2>
                     </div>
                 </div>
             </div>
-            <div class="row quastionform-row">
+            <div class="row quastionform-row animate-delay">
                 <div class="col-sm-2">
                     <div class="quastionform-img">
                          <img src="images/quastionform-img-1.jpg" alt="">
@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="quastionform-row-bottom cfix">
+                <div class="quastionform-row-bottom cfix animate-delay">
                     <div class="col-sm-2">
                         <div class="quastionform-img">
                              <img src="images/quastionform-img-2.jpg" alt="">
