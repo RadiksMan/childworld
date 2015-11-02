@@ -1,7 +1,7 @@
 function initFancyBox () {
     $('.fancybox').fancybox({
-            fitToView: true,
-            autoSize:false
+        fitToView: true,
+        autoSize:true
     });
 }
 
