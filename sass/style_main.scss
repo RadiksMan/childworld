@@ -95,10 +95,31 @@
         &.second-flower{right:0;transform:translate(25%, -50%);}
     }
 
-    &.spec-flower3{
+    &.spec-flower1{
+        .spec-flower-bg{
+            &.first-flower{transform:translate(-51%, -60%);}
+            &.second-flower{transform:translate(25%, -44%);}
+        }
+    }
+
+    &.spec-flower2{
+        .spec-flower-bg{
+            &.first-flower{transform:translate(-25%, -50%);}
+            &.second-flower{transform:translate(31%, -61%);}
+        }
+    }
+
+    &.spec-flower3, &.spec-flower4{
         .spec-flower-bg{
             &.first-flower{transform:translate(-52%, -43%);}
             &.second-flower{transform:translate(0%, -63%);}
+        }
+    }
+
+    &.spec-flower5{
+        .spec-flower-bg{
+            &.first-flower{transform:translate(-19%, -82%);}
+            &.second-flower{transform:translate(52%, -23%);}
         }
     }
 
