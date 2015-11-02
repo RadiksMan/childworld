@@ -1,5 +1,5 @@
 function initFancyBox () {
-    $('.box-imges>a').fancybox({
+    $('.fancybox').fancybox({
             fitToView: true,
             autoSize:false
     });
