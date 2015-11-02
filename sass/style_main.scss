@@ -88,6 +88,10 @@
         &:before{transform: rotate(2.5deg);}
         &:after{transform: rotate(-2.5deg);}
     }
+    .spec-flower-bg{position: absolute;top:50%;transform:translate(0,-50%);
+        &.first-flower{left:0;}
+        &.last-flower{right:0;}
+    }
 }
 .spec-background + .container{position: relative;}
 

@@ -323,6 +323,24 @@
   transform: rotate(-2.5deg);
 }
 
+.spec-background .spec-flower-bg {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.spec-background .spec-flower-bg.first-flower {
+  left: 0;
+}
+
+.spec-background .spec-flower-bg.last-flower {
+  right: 0;
+}
+
 .spec-background + .container {
   position: relative;
 }

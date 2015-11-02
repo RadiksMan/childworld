@@ -2,8 +2,12 @@
 
     <div class="spec-background spec-flower3">
         <div class="top-shadow"></div>
-        <div class="spec-flower-bg first-flower"></div>
-        <div class="spec-flower-bg second-flower"></div>
+        <div class="spec-flower-bg first-flower">
+            <img src="images/flower3-background-left.png" alt="" />
+        </div>
+        <div class="spec-flower-bg second-flower">
+            <img src="images/flower3-background-right.png" alt="" />
+        </div>
         <div class="bottom-shadow"></div>
     </div>
 
