@@ -1,4 +1,12 @@
-<div class="coveralbum-slider">
+<div class="coveralbum-slider spec-background-wrap">
+
+    <div class="spec-background spec-flower3">
+        <div class="top-shadow"></div>
+        <div class="spec-flower-bg first-flower"></div>
+        <div class="spec-flower-bg second-flower"></div>
+        <div class="bottom-shadow"></div>
+    </div>
+
     <div class="container">
         <div class="row">
             <div class="title-wrap">

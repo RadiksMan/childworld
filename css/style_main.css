@@ -148,6 +148,10 @@
 
 /* /topSlider */
 /* decoration slider */
+.decoration-slider {
+  padding-bottom: 20px;
+}
+
 .decoration-img {
   margin-bottom: 27px;
 }
@@ -213,6 +217,10 @@
 
 /* /decoration slider */
 /* coveralbum slider */
+.coveralbum-slider {
+  padding-bottom: 20px;
+}
+
 .coveralbum-slider-main .coveralbum-slider-img {
   padding: 0 10px;
   margin-bottom: 15px;
@@ -223,3 +231,100 @@
 }
 
 /* /coveralbum slider */
+/* spec backgrounds */
+.spec-background-wrap {
+  position: relative;
+}
+
+.spec-background {
+  background-color: #ffe1dd;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.spec-background .top-shadow, .spec-background .bottom-shadow {
+  z-index: 0;
+}
+
+.spec-background .top-shadow:before, .spec-background .top-shadow:after, .spec-background .bottom-shadow:before, .spec-background .bottom-shadow:after {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  height: 10px;
+  top: -23px;
+  left: -20px;
+  width: 50%;
+  max-width: 300px;
+  -webkit-box-shadow: 0 15px 15px 0 rgba(119, 119, 119, 0.6);
+  -moz-box-shadow: 0 15px 15px 0 rgba(119, 119, 119, 0.6);
+  box-shadow: 0 15px 15px 0 rgba(119, 119, 119, 0.6);
+}
+
+.spec-background .top-shadow:after, .spec-background .bottom-shadow:after {
+  right: -20px;
+  left: auto;
+}
+
+.spec-background .top-shadow {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+}
+
+.spec-background .top-shadow:before {
+  -webkit-transform: rotate(-2.5deg);
+  -moz-transform: rotate(-2.5deg);
+  -ms-transform: rotate(-2.5deg);
+  -o-transform: rotate(-2.5deg);
+  transform: rotate(-2.5deg);
+}
+
+.spec-background .top-shadow:after {
+  -webkit-transform: rotate(2.5deg);
+  -moz-transform: rotate(2.5deg);
+  -ms-transform: rotate(2.5deg);
+  -o-transform: rotate(2.5deg);
+  transform: rotate(2.5deg);
+}
+
+.spec-background .bottom-shadow {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+}
+
+.spec-background .bottom-shadow:before, .spec-background .bottom-shadow:after {
+  bottom: -23px;
+  top: auto;
+  -webkit-box-shadow: 0 -15px 15px 0 rgba(119, 119, 119, 0.6);
+  -moz-box-shadow: 0 -15px 15px 0 rgba(119, 119, 119, 0.6);
+  box-shadow: 0 -15px 15px 0 rgba(119, 119, 119, 0.6);
+}
+
+.spec-background .bottom-shadow:before {
+  -webkit-transform: rotate(2.5deg);
+  -moz-transform: rotate(2.5deg);
+  -ms-transform: rotate(2.5deg);
+  -o-transform: rotate(2.5deg);
+  transform: rotate(2.5deg);
+}
+
+.spec-background .bottom-shadow:after {
+  -webkit-transform: rotate(-2.5deg);
+  -moz-transform: rotate(-2.5deg);
+  -ms-transform: rotate(-2.5deg);
+  -o-transform: rotate(-2.5deg);
+  transform: rotate(-2.5deg);
+}
+
+.spec-background + .container {
+  position: relative;
+}
+
+/* /spec backgrounds */

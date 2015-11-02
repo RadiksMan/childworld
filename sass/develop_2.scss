@@ -1,3 +1,4 @@
+// texter and fancybox
 .survey-content{ background-color: #ffe1dd;
     .children-box-wrap{
         .children-box-coll{padding: 0;
@@ -11,3 +12,24 @@
     }
 }
 .school-content{background-color: white !important;}
+
+// end texter and fancybox
+
+
+// question man
+.question-man-face{
+    .question-man-face-content{background-color: #ffe1dd;
+        .question-man-face-wrap{ padding-bottom: 22px;
+            .man-face-coll{
+                img{margin-top: -90px;}
+            }
+            .text-qestion-coll{ padding-top: 70px; padding-bottom: 17px; padding-right: 21px; position: relative;
+                .text-qestion-convert{border-radius: 20px; background-color: white; padding-top: 20px; padding-left: 20px; -webkit-box-shadow: 8px 8px 8px 6px rgba(0,0,0,0.29); -moz-box-shadow: 8px 8px 8px 6px rgba(0,0,0,0.29); box-shadow: 8px 8px 8px 6px rgba(0,0,0,0.29); padding-bottom: 15px;
+                    p{font-family: 'PT Sans'; font-size:18px; ;font-weight: 400; line-height: 28px;}
+                }
+                &:before{position: absolute; left: -32px; top: 100px; content: "";   transform: rotate(10deg); width: 0; height: 0; border-style: solid; border-width: 0 35px 35px 0;border-color: transparent #ffffff transparent transparent; }
+
+            }
+        }
+    }
+}

@@ -1,4 +1,10 @@
-<div class="special-for-bg school">
+<div class="spec-background-wrap school">
+    <div class="spec-background spec-flower3">
+        <div class="top-shadow"></div>
+        <div class="spec-flower-bg first-flower"></div>
+        <div class="spec-flower-bg second-flower"></div>
+        <div class="bottom-shadow"></div>
+    </div>
     <div class="container survey-content ">
         <div class="row children-box-wrap">
             <div class="title-wrap">
@@ -6,12 +12,12 @@
                     <p>Съемка в школе</p>
                 </div>
             </div>
-            <div class="col-sm-6 children-box-coll">
+            <div class="col-sm-6 children-box-coll" >
                 <div class="box-imges">
-                    <a href="images/child-1.jpg" >
+                    <a href="images/child-1.jpg" class="fancybox">
                         <img src="images/child-1.jpg" alt="" />
                     </a>
-                    <a href="images/child-2.jpg" >
+                    <a href="images/child-2.jpg" class="fancybox">
                         <img src="images/child-2.jpg" alt="" />
                     </a>
                 </div>
@@ -19,10 +25,10 @@
             </div>
             <div class="col-sm-6 children-box-coll">
                 <div class="box-imges">
-                    <a href="images/child-3.jpg">
+                    <a href="images/child-3.jpg" class="fancybox">
                         <img src="images/child-3.jpg" alt="" />
                     </a>
-                    <a href="images/child-4.jpg">
+                    <a href="images/child-4.jpg" class="fancybox">
                         <img src="images/child-4.jpg" alt="" />
                     </a>
                 </div>
