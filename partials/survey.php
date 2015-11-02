@@ -1,18 +1,18 @@
 <div class="spec-background-wrap survey">
-    <div class="spec-background spec-flower2">
+    <div class="spec-background spec-flower2 section-animate">
         <div class="top-shadow"></div>
-        <div class="spec-flower-bg first-flower">
+        <div class="spec-flower-bg first-flower animate-it">
             <img src="images/flower2-background-left.png"  alt="" />
         </div>
-        <div class="spec-flower-bg second-flower">
+        <div class="spec-flower-bg second-flower animate-it">
             <img src="images/flower2-background-right.png"  alt="" />
         </div>
         <div class="bottom-shadow"></div>
     </div>
     <div class="container survey-content">
         <div class="row children-box-wrap section-animate">
-            <div class="title-wrap">
-                <div class="title">
+            <div class="title-wrap section-animate">
+                <div class="title animate-it">
                     <p>Съемка в детском саду</p>
                 </div>
             </div>

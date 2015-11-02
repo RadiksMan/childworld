@@ -1,8 +1,8 @@
 <div class="special-for-bg school">
     <div class="container survey-content school-content ">
-        <div class="row children-box-wrap section-animate">
-            <div class="title-wrap">
-                <div class="title">
+        <div class="row children-box-wrap  section-animate">
+            <div class="title-wrap section-animate">
+                <div class="title animate-it">
                     <p>Съемка в школе</p>
                 </div>
             </div>
