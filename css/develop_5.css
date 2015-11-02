@@ -336,6 +336,7 @@
   display: block;
   text-align: center;
   line-height: 55px;
+  background: none;
 }
 
 .datepiker-wrap .ui-datepicker-year {

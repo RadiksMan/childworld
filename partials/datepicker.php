@@ -1,5 +1,5 @@
 <div class="datepicker">
-    <!-- programist, add class "show" to display this section  -->
+
     <div class="datepiker-wrap show">
         <div class="container">
             <div class="row">
