@@ -90,3 +90,162 @@
 .footer .footer-bottom .footer-bottom-button span {
   vertical-align: middle;
 }
+
+.header {
+  background: url("../images/header-bg.png") left top;
+}
+
+.header .heade-top {
+  position: relative;
+}
+
+.header .heade-top .head-title {
+  position: absolute;
+  top: 38px;
+  left: 157px;
+  font-size: 28px;
+  color: #272f3b;
+}
+
+.header .heade-top .head-title h2 {
+  margin: 0;
+  white-space: nowrap;
+  letter-spacing: -1px;
+}
+
+.header .head_cloud {
+  position: relative;
+}
+
+.header .head_cloud .head_cloud_text {
+  position: absolute;
+  text-align: right;
+  top: 27px;
+  right: 0;
+  left: 0;
+}
+
+.header .head_cloud .head_cloud_text p {
+  padding-right: 35px;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.header .head_cloud .head_cloud_text a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+.header .head_cloud .head_cloud_text .head-tel span {
+  font-size: 18px;
+  display: inline-block;
+}
+
+.header .head_cloud .head_cloud_text .head-tel .big {
+  font-size: 36px;
+}
+
+.header .head_cloud .head_cloud_text .head-mail {
+  padding-top: 7px;
+  display: block;
+}
+
+.header .head-center {
+  padding-top: 10px;
+  padding-bottom: 26px;
+}
+
+.header .head-center h2 {
+  font-weight: 700;
+  margin: 0;
+  font-size: 36px;
+  color: #2d4e7a;
+  display: block;
+}
+
+.sertification-wrap {
+  padding-bottom: 53px;
+  padding-top: 72px;
+}
+
+.sertification-wrap .sertification-text {
+  font-size: 18px;
+}
+
+.sertification-wrap .sertification-text p {
+  padding-top: 32px;
+}
+
+.sertification-wrap .sertification-middle-text {
+  font-size: 18px;
+  padding-top: 18px;
+}
+
+.quastionform-wrap {
+  padding-bottom: 42px;
+}
+
+.quastionform-wrap .quastionform-title h2 {
+  font-size: 72px;
+}
+
+.quastionform-wrap .quastionform-img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 140px;
+  width: 140px;
+  position: relative;
+}
+
+.quastionform-wrap .quastionform-img img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin-right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.quastionform-wrap .quastionform-top {
+  padding-left: 83px;
+}
+
+.quastionform-wrap .quastionform-top span {
+  font-size: 24px;
+  color: #000;
+}
+
+.quastionform-wrap .quastionform-top a {
+  color: #000;
+}
+
+.quastionform-wrap .quastionform-top p {
+  font-size: 18px;
+}
+
+.quastionform-wrap .quastionform-row {
+  padding-top: 25px;
+}
+
+.quastionform-wrap .quastionform-row-bottom {
+  margin-top: -50px;
+  margin-left: 50px;
+}
+
+.quastionform-wrap .quastionform-row-bottom .quastionform-top {
+  padding-left: 40px;
+}
+
+.quastionform-wrap .quastionform-row-bottom .quastionform-top a, .quastionform-wrap .quastionform-row-bottom .quastionform-top span {
+  padding-top: 5px;
+  display: inline-block;
+}
+
+.quastionform-wrap .quastionform-row-bottom .quastionform-top p {
+  padding-top: 19px;
+}

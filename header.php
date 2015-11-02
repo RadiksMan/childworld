@@ -130,7 +130,39 @@
 <body>
 	<?partial('zHiddenBlock');?>
 	<header class="header">
-		<div class="mbox">
-
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8">
+					<div class="heade-top">
+						<div class="head-logo">
+							<a href="#">
+								<img src="images/header-logo.png" alt="">
+							</a>
+						</div>
+						<div class="head-title">
+							<h2>Студия детской фотографии г. Москва</h2>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="head_cloud">
+						<div class="head_cloud_img">
+							<img src="images/head_cloud.png" alt="">
+						</div>
+						<div class="head_cloud_text">
+							<p><a href="tel:849588649645" class="head-tel"><span>7 (495)</span><span class="big">165-48-65</span></a></p>
+							<p>с 9-00 до 19-00</p>
+							<p><a href="mailto:foto@mig-detstva.ru" class="head-mail"><span>foto@mig-detstva.ru</span></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="head-center text-center">
+						<h2>Профессиональная фотосъёмка в детских садах и школах</h2>
+					</div>
+				</div>
+			</div>
 		</div>
 	</header>

@@ -1,19 +1,9 @@
-<div class="spec-background-wrap survey">
-    <div class="spec-background spec-flower2">
-        <div class="top-shadow"></div>
-        <div class="spec-flower-bg first-flower">
-            <img src="images/flower2-background-left.png"  alt="" />
-        </div>
-        <div class="spec-flower-bg second-flower">
-            <img src="images/flower2-background-right.png"  alt="" />
-        </div>
-        <div class="bottom-shadow"></div>
-    </div>
-    <div class="container survey-content">
+<div class="special-for-bg school">
+    <div class="container survey-content school-content ">
         <div class="row children-box-wrap">
             <div class="title-wrap">
                 <div class="title">
-                    <p>Съемка в детском саду</p>
+                    <p>Съемка в школе</p>
                 </div>
             </div>
             <div class="col-sm-6 children-box-coll">
@@ -21,7 +11,7 @@
                     <a href="images/child-1.jpg" class="fancybox">
                         <img src="images/child-1.jpg" alt="" />
                     </a>
-                    <a href="images/child-2.jpg" class="fancybox">
+                    <a href="images/child-2.jpg" class="fancybox" >
                         <img src="images/child-2.jpg" alt="" />
                     </a>
                 </div>

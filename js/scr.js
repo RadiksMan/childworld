@@ -252,6 +252,33 @@ function sliderTopInit(){
 
 }
 
+function decorationSlider(){
+
+    $('.decoration-slider-main').slick({
+        dots:false,
+        arrows:true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true,
+        cssEase: 'linear',
+        autoplay:false
+    });
+
+}
+
+function coveralbumSlider(){
+
+    $('.coveralbum-slider-main').slick({
+        dots:false,
+        arrows:true,
+        infinite: true,
+        slidesToShow:4,
+        slidesToScroll:1
+    });
+
+};
+
 /* DOCUMENT READY  */
 $(document).ready(function() {
     scrollUp('.footer-bottom-button','.header')
@@ -264,6 +291,8 @@ $(document).ready(function() {
 $(window).load(function(){
 
     sliderTopInit();
+    decorationSlider();
+    coveralbumSlider();
 
 });
 
