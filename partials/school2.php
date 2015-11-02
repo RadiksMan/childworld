@@ -1,12 +1,12 @@
 <div class="special-for-bg school">
     <div class="container survey-content school-content ">
-        <div class="row children-box-wrap">
+        <div class="row children-box-wrap section-animate">
             <div class="title-wrap">
                 <div class="title">
                     <p>Съемка в школе</p>
                 </div>
             </div>
-            <div class="col-sm-6 children-box-coll">
+            <div class="col-sm-6 children-box-coll animate-it">
                 <div class="box-imges">
                     <a href="images/child-1.jpg" class="fancybox">
                         <img src="images/child-1.jpg" alt="" />
@@ -17,7 +17,7 @@
                 </div>
                 <p>Задача организации, в особенности же реализация намеченных плановых заданий позволяет оценить значение дальнейших направлений развития. Значимость этих проблем настолько очевидна, что постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет оценить значение модели развития </p>
             </div>
-            <div class="col-sm-6 children-box-coll">
+            <div class="col-sm-6 children-box-coll animate-it">
                 <div class="box-imges">
                     <a href="images/child-3.jpg" class="fancybox">
                         <img src="images/child-3.jpg" alt="" />
