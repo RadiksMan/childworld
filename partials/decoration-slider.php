@@ -11,7 +11,7 @@
                 <div class="decoration-slider-item cfix">
                     <div class="col-sm-8">
                         <div class="decoration-img">
-                            <a href="#" class="fancybox-img">
+                            <a href="#" class="fancybox">
                                 <img src="images/decoration-img1.jpg" alt="">
                             </a>
                         </div>
@@ -33,7 +33,7 @@
                 <div class="decoration-slider-item cfix">
                     <div class="col-sm-8">
                         <div class="decoration-img">
-                            <a href="#" class="fancybox-img">
+                            <a href="#" class="fancybox">
                                 <img src="images/decoration-img1.jpg" alt="">
                             </a>
                         </div>

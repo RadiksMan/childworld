@@ -42,4 +42,27 @@
     &:last-child{margin-bottom: 0;}
 }
 
+.decoration-slider-main, .coveralbum-slider-main{
+    :focus{outline:none;}
+    .slick-arrow{position: absolute;top: 0;bottom: 0;font-size: 0;border:none;border-radius:0px;margin:0;padding: 0;width: 60px;background-color: transparent;transition:background-color 300ms ease;
+        &:before{content:'';display: block;position: absolute;top: 50%;width: 28px;height: 42px;background-image:url(../images/slider-arrow-img.png);left:50%;margin:-21px 0 0 -14px;}
+        &.slick-prev{right:100%;}
+        &.slick-next{left: 100%;
+            &:before{background-position: right top;}
+        }
+        &:hover{background-color: #e4f0d1;}
+        &:focus{outline:none;}
+    }
+}
+
 /* /decoration slider */
+
+/* coveralbum slider */
+
+.coveralbum-slider-main{
+    .coveralbum-slider-img{padding: 0 10px;margin-bottom: 15px;
+        &:last-child{margin-bottom: 0;}
+    }
+}
+
+/* /coveralbum slider */

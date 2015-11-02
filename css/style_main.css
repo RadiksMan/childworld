@@ -156,4 +156,70 @@
   margin-bottom: 0;
 }
 
+.decoration-slider-main :focus, .coveralbum-slider-main :focus {
+  outline: none;
+}
+
+.decoration-slider-main .slick-arrow, .coveralbum-slider-main .slick-arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  font-size: 0;
+  border: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  background-color: transparent;
+  -webkit-transition: background-color 300ms ease;
+  -moz-transition: background-color 300ms ease;
+  -o-transition: background-color 300ms ease;
+  transition: background-color 300ms ease;
+}
+
+.decoration-slider-main .slick-arrow:before, .coveralbum-slider-main .slick-arrow:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  width: 28px;
+  height: 42px;
+  background-image: url(../images/slider-arrow-img.png);
+  left: 50%;
+  margin: -21px 0 0 -14px;
+}
+
+.decoration-slider-main .slick-arrow.slick-prev, .coveralbum-slider-main .slick-arrow.slick-prev {
+  right: 100%;
+}
+
+.decoration-slider-main .slick-arrow.slick-next, .coveralbum-slider-main .slick-arrow.slick-next {
+  left: 100%;
+}
+
+.decoration-slider-main .slick-arrow.slick-next:before, .coveralbum-slider-main .slick-arrow.slick-next:before {
+  background-position: right top;
+}
+
+.decoration-slider-main .slick-arrow:hover, .coveralbum-slider-main .slick-arrow:hover {
+  background-color: #e4f0d1;
+}
+
+.decoration-slider-main .slick-arrow:focus, .coveralbum-slider-main .slick-arrow:focus {
+  outline: none;
+}
+
 /* /decoration slider */
+/* coveralbum slider */
+.coveralbum-slider-main .coveralbum-slider-img {
+  padding: 0 10px;
+  margin-bottom: 15px;
+}
+
+.coveralbum-slider-main .coveralbum-slider-img:last-child {
+  margin-bottom: 0;
+}
+
+/* /coveralbum slider */
