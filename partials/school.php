@@ -1,8 +1,12 @@
 <div class="spec-background-wrap school">
     <div class="spec-background spec-flower3">
         <div class="top-shadow"></div>
-        <div class="spec-flower-bg first-flower"></div>
-        <div class="spec-flower-bg second-flower"></div>
+        <div class="spec-flower-bg first-flower">
+            <img src="images/flower4-background-left.png"  alt="" />
+        </div>
+        <div class="spec-flower-bg second-flower">
+            <img src="images/flower4-background-right.png"  alt="" />
+        </div>
         <div class="bottom-shadow"></div>
     </div>
     <div class="container survey-content ">
