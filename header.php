@@ -94,27 +94,18 @@
 	    				mounthNum:10,
 	    				mounthDays:[
 		    				{
-		    					dayNum:10,
-		    					dayType:'sorry'
-		    				},
-		    				{
-		    					dayNum:12,
+		    					dayNum:30,
 		    					dayType:'sorry'
 		    				}
 		    			]
 
 	    			}
 	    		,
-
 	    			{
 	    				mounthNum:11,
 		    			mounthDays:[
 		    				{
-		    					dayNum:14,
-		    					dayType:'sorry'
-		    				},
-		    				{
-		    					dayNum:18,
+		    					dayNum:30,
 		    					dayType:'sorry'
 		    				}
 		    			]

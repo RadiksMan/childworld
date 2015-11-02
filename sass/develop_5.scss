@@ -85,7 +85,9 @@
 
 .datepiker-wrap{padding-bottom: 21px;display: none;
     &.show{display: block;}
-    .datepiker-kalendar{min-height: 460px;}
+    .datepiker-kalendar{min-height: 460px;position: relative;z-index: 1;
+        &:after{position: absolute;top: 66px;right: 0;bottom: 0;left: 0;content: '';z-index: 2;}
+    }
     &>*{box-sizing:border-box;}
     .ui-widget-content{background-color: #e0e0e0;border:none;padding: 20px;padding-top: 5px;box-shadow: 7px 8px 14px 3px rgba(212, 212, 212, 0.78);}
     .ui-datepicker .ui-datepicker-title{font-weight: bold;color: #535353;font-size: 30px;}
@@ -99,7 +101,7 @@
     .ui-datepicker-calendar tbody tr{border:none;background: linear-gradient(180deg, rgb(127, 189, 107) 49%, rgb(116, 182, 95) 51%);}
     .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{font-size: 30px;color: white;border-radius: 0;border:none;margin:0;width: auto;height: auto;display: block;text-align: center;line-height: 55px;background: none;}
     .ui-datepicker-year{font-size: inherit;}
-    .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{background-color: inherit;opacity: .6;}
+    .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{background-color: inherit;}
     .ui-datepicker-today{
         a{box-shadow: inset 0px 0px 0px 2px red;}
     }

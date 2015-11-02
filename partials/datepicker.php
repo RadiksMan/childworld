@@ -15,18 +15,10 @@
                     <div class="datepiker-text">
                         <div class="datepiker-text-row cfix">
                             <div class="datepiker-text-date">
-                                <span>31</span>
+                                <span>30</span>
                             </div>
                             <div class="datepiker-text-desc">
                                 <p>День занят, будет проводиться съемка</p>
-                            </div>
-                        </div>
-                        <div class="datepiker-text-row cfix">
-                            <div class="datepiker-text-date">
-                                <span>4</span>
-                            </div>
-                            <div class="datepiker-text-desc">
-                                <p>День занят, будет проводиться съемка </p>
                             </div>
                         </div>
                     </div>

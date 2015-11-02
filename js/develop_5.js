@@ -32,7 +32,7 @@ function datepickerInit(){
 }
 
 function searchInDatepicker(){
-    var mounth = $('.ui-datepicker-calendar tr:nth-child(2) td').data('month');
+    var mounth = parseInt($('.ui-datepicker-calendar tr:nth-child(2) td').data('month') + 1);
     var indexElem = null;
     for(var i=0;i<calendar.length;i++){
         if(mounth == calendar[i].mounthNum){
@@ -44,7 +44,7 @@ function searchInDatepicker(){
         for(var i=0;i<calendar[indexElem].mounthDays.length;i++){
             var date = calendar[indexElem].mounthDays[i].dayNum;
             if(calendar[indexElem].mounthDays[i].dayType=='sorry'){
-                $('.ui-datepicker-calendar td:not(.ui-state-disabled)').eq(date-1).addClass('engaged');
+                $('.ui-datepicker-calendar td:not(.ui-state-disabled,.ui-datepicker-other-month )').eq(date-1).addClass('engaged');
             }
         }
     }
