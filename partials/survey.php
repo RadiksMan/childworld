@@ -1,5 +1,5 @@
 <div class="spec-background-wrap survey">
-    <div class="spec-background spec-flower3">
+    <div class="spec-background spec-flower2">
         <div class="top-shadow"></div>
         <div class="spec-flower-bg first-flower">
             <img src="images/flower2-background-left.png"  alt="" />

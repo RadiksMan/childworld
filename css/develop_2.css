@@ -77,3 +77,13 @@
   border-width: 0 35px 35px 0;
   border-color: transparent #ffffff transparent transparent;
 }
+
+.quality-work .quality-work-content .quality-work-wrap .quality-work-img-coll {
+  padding-bottom: 40px;
+}
+
+.quality-work .quality-work-content .quality-work-wrap .text-quality-coll .text-quality-convert p {
+  font-family: 'PT Sans';
+  font-size: 18px;
+  font-weight: 400;
+}

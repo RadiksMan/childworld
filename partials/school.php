@@ -1,5 +1,5 @@
 <div class="spec-background-wrap school">
-    <div class="spec-background spec-flower3">
+    <div class="spec-background spec-flower4">
         <div class="top-shadow"></div>
         <div class="spec-flower-bg first-flower">
             <img src="images/flower4-background-left.png"  alt="" />

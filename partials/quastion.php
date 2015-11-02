@@ -1,5 +1,5 @@
 <div class="spec-background-wrap question-man-face ">
-    <div class="spec-background spec-flower3">
+    <div class="spec-background spec-flower1">
         <div class="top-shadow"></div>
         <div class="spec-flower-bg first-flower">
             <img src="images/flower1-background-left.png"  alt="" />
