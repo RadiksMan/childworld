@@ -26,12 +26,12 @@
 											<form method="POST" action="" id="grafic-form">
 												<div class="input-wrap">
 													<div class="col-sm-4">
-														<input type="text" name="name" placeholder="Имя:"/>
+														<input type="text" name="name" placeholder="Имя:" required="required"/>
 													</div>
 												</div>
 												<div class="input-wrap phone">
 													<div class="col-sm-4">
-														<input type="text" name="phone" placeholder="Телефон:"/>
+														<input type="text" name="phone" placeholder="Телефон:" required="required"/>
 													</div>
 												</div>
 												<div class="input-wrap-submit">

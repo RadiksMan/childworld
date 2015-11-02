@@ -283,7 +283,6 @@ function coveralbumSlider(){
 $(document).ready(function() {
     scrollUp('.footer-bottom-button','.header')
 	modernize();
-	$('.footer_placeholder').height($('.footer').outerHeight());
 
 	oneHeightItems();
 });
@@ -293,6 +292,10 @@ $(window).load(function(){
     sliderTopInit();
     decorationSlider();
     coveralbumSlider();
+
+    animationBlock($('.section-animate'));
+
+    $('.footer_placeholder').height($('.footer').outerHeight());
 
 });
 
