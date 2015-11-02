@@ -163,3 +163,89 @@
   color: #2d4e7a;
   display: block;
 }
+
+.sertification-wrap {
+  padding-bottom: 53px;
+  padding-top: 72px;
+}
+
+.sertification-wrap .sertification-text {
+  font-size: 18px;
+}
+
+.sertification-wrap .sertification-text p {
+  padding-top: 32px;
+}
+
+.sertification-wrap .sertification-middle-text {
+  font-size: 18px;
+  padding-top: 18px;
+}
+
+.quastionform-wrap {
+  padding-bottom: 42px;
+}
+
+.quastionform-wrap .quastionform-title h2 {
+  font-size: 72px;
+}
+
+.quastionform-wrap .quastionform-img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 140px;
+  width: 140px;
+  position: relative;
+}
+
+.quastionform-wrap .quastionform-img img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin-right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.quastionform-wrap .quastionform-top {
+  padding-left: 83px;
+}
+
+.quastionform-wrap .quastionform-top span {
+  font-size: 24px;
+  color: #000;
+}
+
+.quastionform-wrap .quastionform-top a {
+  color: #000;
+}
+
+.quastionform-wrap .quastionform-top p {
+  font-size: 18px;
+}
+
+.quastionform-wrap .quastionform-row {
+  padding-top: 25px;
+}
+
+.quastionform-wrap .quastionform-row-bottom {
+  margin-top: -50px;
+  margin-left: 50px;
+}
+
+.quastionform-wrap .quastionform-row-bottom .quastionform-top {
+  padding-left: 40px;
+}
+
+.quastionform-wrap .quastionform-row-bottom .quastionform-top a, .quastionform-wrap .quastionform-row-bottom .quastionform-top span {
+  padding-top: 5px;
+  display: inline-block;
+}
+
+.quastionform-wrap .quastionform-row-bottom .quastionform-top p {
+  padding-top: 19px;
+}
