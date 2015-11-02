@@ -1,16 +1,15 @@
-	<div class="main">
-
+<div class="main">
         <?partial('topslider')?>
         <?partial('quastion')?>
         <?partial('quastionform')?>
         <?partial('survey')?>
-        <?partial('decoration')?>
-        <?partial('coveralbum')?>
+        <?partial('decoration-slider')?>
+        <?partial('coveralbum-slider')?>
         <?partial('grafic')?>
         <?partial('school')?>
         <?partial('school2')?>
         <?partial('quality')?>
         <?partial('sertification')?>
         <?partial('portfolio')?>
+</div>
 
-	</div>

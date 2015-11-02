@@ -1,3 +1,9 @@
+/* titles styled */
+
+.title-wrap{text-align: center;font-size: 36px;color:#000000;margin-bottom: 35px;padding-top:55px;}
+
+/* /titles styled */
+
 /* topSlider */
 
 .topSlider-main{
@@ -29,3 +35,11 @@
 }
 
 /* /topSlider */
+
+/* decoration slider */
+
+.decoration-img{margin-bottom: 27px;
+    &:last-child{margin-bottom: 0;}
+}
+
+/* /decoration slider */
