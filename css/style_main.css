@@ -331,13 +331,14 @@
   -ms-transform: translate(0, -50%);
   -o-transform: translate(0, -50%);
   transform: translate(0, -50%);
+  opacity: .2;
 }
 
 .spec-background .spec-flower-bg.first-flower {
   left: 0;
 }
 
-.spec-background .spec-flower-bg.last-flower {
+.spec-background .spec-flower-bg.second-flower {
   right: 0;
 }
 
