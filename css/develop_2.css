@@ -2,22 +2,22 @@
   background-color: #ffe1dd;
 }
 
-.survey-content .survey-header-wrap .survey-header p {
-  text-align: center;
-  font-family: 'PT Sans';
-  font-size: 36px;
-  font-weight: 400;
+.survey-content .children-box-wrap .children-box-coll {
+  padding: 0;
 }
 
 .survey-content .children-box-wrap .children-box-coll .box-imges a img {
-  width: 39%;
-  margin-left: 5%;
-  margin-right: 5%;
+  padding: 0 8px;
 }
 
 .survey-content .children-box-wrap .children-box-coll p {
   font-family: 'PT Sans';
   font-size: 18px;
   font-weight: 400;
-  padding: 0 20px;
+  padding: 14px 8px 27px;
+  text-align: justify;
+}
+
+.school-content {
+  background-color: white !important;
 }

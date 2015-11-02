@@ -1,5 +1,4 @@
 <div class="main">
-
         <?partial('topslider')?>
         <?partial('quastion')?>
         <?partial('quastionform')?>
@@ -8,9 +7,9 @@
         <?partial('coveralbum-slider')?>
         <?partial('grafic')?>
         <?partial('school')?>
-        <?partial('school')?>
+        <?partial('school2')?>
         <?partial('quality')?>
         <?partial('sertification')?>
         <?partial('portfolio')?>
-
 </div>
+
