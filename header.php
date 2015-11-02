@@ -69,24 +69,6 @@
 	<script src="js/slick.js" type="text/javascript"></script>
 <!-- sliders -->
 
-<!-- jScrollPane -->
-	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
-	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
-<!-- jScrollPane -->
-
-<!-- google Maps -->
-
-	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-	<script>
-		var cordX = 55.822389;
-		var cordY= 37.647088;
-		var googleText = "Москва, Проспект Мира д. 150";
-	</script>
-	<script src='js/googleMapsScr.js'></script>
-
-
-<!-- /google Maps -->
 
 <script>
 	    	var calendar = [
@@ -132,12 +114,6 @@
 	<link rel="stylesheet" type="text/css" href="css/develop_3.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/develop_4.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/style_main.css" media="all" />
-
-	<link rel="stylesheet" type="text/css" href="css/adaptation_develop_2.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="css/adaptation_develop_5.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="css/adaptation_develop_3.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="css/adaptation_develop_4.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="css/adaptation.css" media="all" />
 
 	<script src="js/scr.js" type="text/javascript"></script>
 
