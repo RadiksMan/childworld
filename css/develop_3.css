@@ -1,4 +1,8 @@
 /* grafic */
+.grafic-section {
+  overflow: hidden;
+}
+
 .grafic-wrap {
   padding-bottom: 60px;
 }
@@ -21,6 +25,50 @@
 
 .grafic-wrap p span {
   font-weight: 700;
+}
+
+.grafic-wrap .grafic-desc {
+  opacity: 0;
+  -webkit-transform: translate(-20%, 0);
+  -moz-transform: translate(-20%, 0);
+  -ms-transform: translate(-20%, 0);
+  -o-transform: translate(-20%, 0);
+  transform: translate(-20%, 0);
+  -webkit-transition: opacity 500ms ease, -webkit-transform 300ms ease;
+  -moz-transition: opacity 500ms ease, -moz-transform 300ms ease;
+  -o-transition: opacity 500ms ease, -o-transform 300ms ease;
+  transition: opacity 500ms ease, transform 300ms ease;
+}
+
+.grafic-wrap .grafic-desc.animated {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.grafic-wrap .grafic-form {
+  opacity: 0;
+  -webkit-transform: translate(20%, 0);
+  -moz-transform: translate(20%, 0);
+  -ms-transform: translate(20%, 0);
+  -o-transform: translate(20%, 0);
+  transform: translate(20%, 0);
+  -webkit-transition: opacity 500ms ease, -webkit-transform 300ms ease;
+  -moz-transition: opacity 500ms ease, -moz-transform 300ms ease;
+  -o-transition: opacity 500ms ease, -o-transform 300ms ease;
+  transition: opacity 500ms ease, transform 300ms ease;
+}
+
+.grafic-wrap .grafic-form.animated {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
 }
 
 .grafic-wrap .grafic-form-wrap {
