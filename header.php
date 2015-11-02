@@ -30,7 +30,12 @@
 	<!--<script src="js/bootstrap.js" type="text/javascript"></script>-->
 
 	<!-- /bootstrap -->
+	<!-- Jquery UI -->
 
+	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+	<!-- Jquery UI -->
 	<!-- form styler -->
 
 	<link rel="stylesheet" href="css/jquery.formstyler.css" media='all' />
