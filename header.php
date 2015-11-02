@@ -159,10 +159,10 @@
 <body>
 	<?partial('zHiddenBlock');?>
 	<header class="header">
-		<div class="container">
+		<div class="container section-animate">
 			<div class="row">
 				<div class="col-sm-8">
-					<div class="heade-top">
+					<div class="heade-top animate-it">
 						<div class="head-logo">
 							<a href="#">
 								<img src="images/header-logo.png" alt="">
@@ -174,7 +174,7 @@
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<div class="head_cloud">
+					<div class="head_cloud animate-it">
 						<div class="head_cloud_img">
 							<img src="images/head_cloud.png" alt="">
 						</div>
@@ -188,7 +188,7 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-12">
-					<div class="head-center text-center">
+					<div class="head-center text-center animate-it">
 						<h2>Профессиональная фотосъёмка в детских садах и школах</h2>
 					</div>
 				</div>

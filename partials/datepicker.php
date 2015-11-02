@@ -1,17 +1,17 @@
 <div class="datepicker">
 
-    <div class="datepiker-wrap show">
+    <div class="datepiker-wrap show section-animate">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 text-center">
+                <div class="col-sm-12 text-center animate-delay">
                     <h5>График съемок</h5>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6 animate-delay">
                     <div class="datepiker-kalendar"></div>
                 </div>
-                <div class="col-sm-5 col-sm-offset-1">
+                <div class="col-sm-5 col-sm-offset-1 animate-delay">
                     <div class="datepiker-text">
                         <div class="datepiker-text-row cfix">
                             <div class="datepiker-text-date">
