@@ -1,12 +1,11 @@
 <div class="special-for-bg survey">
     <div class="container survey-content">
-        <div class="row survey-header-wrap">
-            <div class="col-sm-12 survey-header">
-                <p>Съемка в детском саду</p>
-            </div>
-        </div>
-
         <div class="row children-box-wrap">
+            <div class="title-wrap">
+                <div class="title">
+                    <p>Съемка в детском саду</p>
+                </div>
+            </div>
             <div class="col-sm-6 children-box-coll">
                 <div class="box-imges">
                     <a href="images/child-1.jpg" >
