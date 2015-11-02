@@ -249,3 +249,164 @@
 .quastionform-wrap .quastionform-row-bottom .quastionform-top p {
   padding-top: 19px;
 }
+
+.datepiker-wrap {
+  padding-bottom: 21px;
+  display: none;
+}
+
+.datepiker-wrap.show {
+  display: block;
+}
+
+.datepiker-wrap .datepiker-kalendar {
+  min-height: 460px;
+}
+
+.datepiker-wrap > * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.datepiker-wrap .ui-widget-content {
+  background-color: #e0e0e0;
+  border: none;
+  padding: 20px;
+  padding-top: 5px;
+  -webkit-box-shadow: 7px 8px 14px 3px rgba(212, 212, 212, 0.78);
+  -moz-box-shadow: 7px 8px 14px 3px rgba(212, 212, 212, 0.78);
+  box-shadow: 7px 8px 14px 3px rgba(212, 212, 212, 0.78);
+}
+
+.datepiker-wrap .ui-datepicker .ui-datepicker-title {
+  font-weight: bold;
+  color: #535353;
+  font-size: 30px;
+}
+
+.datepiker-wrap .ui-datepicker .ui-datepicker-prev, .datepiker-wrap .ui-datepicker .ui-datepicker-next {
+  width: 22px;
+  height: 22px;
+  border-left: 18px solid grey;
+  border-top: 13px solid transparent;
+  border-bottom: 13px solid transparent;
+  background: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  right: 0;
+  top: 22px;
+}
+
+.datepiker-wrap .ui-datepicker .ui-datepicker-prev {
+  border-right: 18px solid grey;
+  border-left: none;
+}
+
+.datepiker-wrap .ui-datepicker td {
+  border: 2px solid white;
+}
+
+.datepiker-wrap .ui-datepicker td.engaged {
+  background: -webkit-linear-gradient(270deg, #438ead 49%, #3684a5 51%);
+  background: -moz-linear-gradient(270deg, #438ead 49%, #3684a5 51%);
+  background: -o-linear-gradient(270deg, #438ead 49%, #3684a5 51%);
+  background: linear-gradient(180deg, #438ead 49%, #3684a5 51%);
+}
+
+.datepiker-wrap .ui-datepicker-calendar tbody tr {
+  border: none;
+  background: -webkit-linear-gradient(270deg, #7fbd6b 49%, #74b65f 51%);
+  background: -moz-linear-gradient(270deg, #7fbd6b 49%, #74b65f 51%);
+  background: -o-linear-gradient(270deg, #7fbd6b 49%, #74b65f 51%);
+  background: linear-gradient(180deg, #7fbd6b 49%, #74b65f 51%);
+}
+
+.datepiker-wrap .ui-state-default, .datepiker-wrap .ui-widget-content .ui-state-default, .datepiker-wrap .ui-widget-header .ui-state-default {
+  font-size: 30px;
+  color: white;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border: none;
+  margin: 0;
+  width: auto;
+  height: auto;
+  display: block;
+  text-align: center;
+  line-height: 55px;
+}
+
+.datepiker-wrap .ui-datepicker-year {
+  font-size: inherit;
+}
+
+.datepiker-wrap .ui-state-active, .datepiker-wrap .ui-widget-content .ui-state-active, .datepiker-wrap .ui-widget-header .ui-state-active {
+  background-color: inherit;
+  opacity: .6;
+}
+
+.datepiker-wrap .ui-datepicker-today a {
+  -webkit-box-shadow: inset 0px 0px 0px 2px red;
+  -moz-box-shadow: inset 0px 0px 0px 2px red;
+  box-shadow: inset 0px 0px 0px 2px red;
+}
+
+.datepiker-wrap .ui-datepicker-other-month {
+  background-color: #e8e8e8;
+}
+
+.datepiker-wrap .ui-datepicker-other-month a {
+  color: #b7b7b7 !important;
+}
+
+.datepiker-wrap .ui-datepicker .ui-datepicker-header {
+  padding-bottom: 10px;
+}
+
+.datepiker-wrap h5 {
+  font-size: 36px;
+  padding-top: 20px;
+  padding-bottom: 32px;
+}
+
+.datepiker-wrap .datepiker-text {
+  padding-bottom: 32px;
+}
+
+.datepiker-wrap .datepiker-text-row {
+  padding-bottom: 5px;
+}
+
+.datepiker-wrap .datepiker-text-row .datepiker-text-date {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  background: -webkit-linear-gradient(270deg, #438ead 49%, #3684a5 51%);
+  background: -moz-linear-gradient(270deg, #438ead 49%, #3684a5 51%);
+  background: -o-linear-gradient(270deg, #438ead 49%, #3684a5 51%);
+  background: linear-gradient(180deg, #438ead 49%, #3684a5 51%);
+  float: left;
+  margin-right: 17px;
+}
+
+.datepiker-wrap .datepiker-text-row .datepiker-text-date span {
+  color: white;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.datepiker-wrap .datepiker-text-row .datepiker-text-desc {
+  font-size: 18px;
+}
+
+.datepiker-wrap .datepiker-text-row .datepiker-text-desc p {
+  padding-top: 5px;
+}
+
+.datepiker-wrap .datepiker-sub-text {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
