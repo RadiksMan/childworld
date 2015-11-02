@@ -221,9 +221,13 @@
   padding-bottom: 20px;
 }
 
+.coveralbum-slider .title-wrap {
+  padding-top: 28px;
+}
+
 .coveralbum-slider-main .coveralbum-slider-img {
   padding: 0 10px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .coveralbum-slider-main .coveralbum-slider-img:last-child {
@@ -326,20 +330,41 @@
 .spec-background .spec-flower-bg {
   position: absolute;
   top: 50%;
-  -webkit-transform: translate(0, -50%);
-  -moz-transform: translate(0, -50%);
-  -ms-transform: translate(0, -50%);
-  -o-transform: translate(0, -50%);
-  transform: translate(0, -50%);
   opacity: .2;
 }
 
 .spec-background .spec-flower-bg.first-flower {
   left: 0;
+  -webkit-transform: translate(-25%, -50%);
+  -moz-transform: translate(-25%, -50%);
+  -ms-transform: translate(-25%, -50%);
+  -o-transform: translate(-25%, -50%);
+  transform: translate(-25%, -50%);
 }
 
 .spec-background .spec-flower-bg.second-flower {
   right: 0;
+  -webkit-transform: translate(25%, -50%);
+  -moz-transform: translate(25%, -50%);
+  -ms-transform: translate(25%, -50%);
+  -o-transform: translate(25%, -50%);
+  transform: translate(25%, -50%);
+}
+
+.spec-background.spec-flower3 .spec-flower-bg.first-flower {
+  -webkit-transform: translate(-52%, -43%);
+  -moz-transform: translate(-52%, -43%);
+  -ms-transform: translate(-52%, -43%);
+  -o-transform: translate(-52%, -43%);
+  transform: translate(-52%, -43%);
+}
+
+.spec-background.spec-flower3 .spec-flower-bg.second-flower {
+  -webkit-transform: translate(0%, -63%);
+  -moz-transform: translate(0%, -63%);
+  -ms-transform: translate(0%, -63%);
+  -o-transform: translate(0%, -63%);
+  transform: translate(0%, -63%);
 }
 
 .spec-background + .container {
