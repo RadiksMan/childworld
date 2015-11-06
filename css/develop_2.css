@@ -56,11 +56,11 @@
 }
 
 .question-man-face .question-man-face-content .question-man-face-wrap .man-face-coll {
-  opacity: 0;
-  transform: translate3d(0, 30%, 0);
-  -webkit-transform: translate3d(0, 30%, 0);
-  -moz-transform: translate3d(0%, 30%, 0);
-  -ms-transform: translate3d(0, 30%, 0);
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0%, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
   -o-transition: -o-transform 500ms ease, opacity 500ms ease;
   transition: transform 500ms ease, opacity 500ms ease;
   -webkit-transition: -webkit-transform 500ms ease, opacity 500ms ease;
@@ -85,11 +85,11 @@
   padding-bottom: 17px;
   padding-right: 21px;
   position: relative;
-  opacity: 0;
-  transform: translate3d(0, 30%, 0);
-  -webkit-transform: translate3d(0, 30%, 0);
-  -moz-transform: translate3d(0%, 30%, 0);
-  -ms-transform: translate3d(0, 30%, 0);
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0%, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
   -o-transition: -o-transform 500ms ease, opacity 500ms ease;
   transition: transform 500ms ease, opacity 500ms ease;
   -webkit-transition: -webkit-transform 500ms ease, opacity 500ms ease;

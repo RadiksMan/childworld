@@ -56,6 +56,7 @@
     .decoration-slider-item, .coveralbum-slider-item{opacity: 0;transition:opacity 500ms ease;
         &.animated{opacity: 1;}
     }
+    .slick-slide{outline: none;}
     .slick-arrow{position: absolute;top: 0;bottom: 0;font-size: 0;border:none;border-radius:0px;margin:0;padding: 0;width: 60px;background-color: transparent;transition:background-color 300ms ease;
         &:before{content:'';display: block;position: absolute;top: 50%;width: 28px;height: 42px;background-image:url(../images/slider-arrow-img.png);left:50%;margin:-21px 0 0 -14px;}
         &.slick-prev{right:100%;}
@@ -138,3 +139,12 @@
 .spec-background + .container{position: relative;}
 
 /* /spec backgrounds */
+
+@media screen and (max-width: 1366px){
+    // .spec-background .spec-flower-bg{
+    //     img{max-width: 60%;}
+    // }
+    // .spec-background .spec-flower-bg.second-flower{right:-15%;}
+    // .spec-background .spec-flower-bg{left: 4%;}
+    .spec-background .top-shadow:before, .spec-background .top-shadow:after, .spec-background .bottom-shadow:before, .spec-background .bottom-shadow:after{width: 15%;}
+}

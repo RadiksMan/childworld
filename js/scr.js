@@ -260,7 +260,9 @@ function decorationSlider(){
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay:false
+        autoplay:false,
+        fade: true,
+        cssEase: 'ease-out'
     });
 
 }

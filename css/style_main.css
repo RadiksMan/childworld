@@ -229,6 +229,10 @@
   opacity: 1;
 }
 
+.decoration-slider-main .slick-slide, .coveralbum-slider-main .slick-slide {
+  outline: none;
+}
+
 .decoration-slider-main .slick-arrow, .coveralbum-slider-main .slick-arrow {
   position: absolute;
   top: 0;
@@ -493,3 +497,8 @@
 }
 
 /* /spec backgrounds */
+@media screen and (max-width: 1366px) {
+  .spec-background .top-shadow:before, .spec-background .top-shadow:after, .spec-background .bottom-shadow:before, .spec-background .bottom-shadow:after {
+    width: 15%;
+  }
+}

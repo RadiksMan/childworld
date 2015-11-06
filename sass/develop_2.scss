@@ -28,12 +28,12 @@
 .question-man-face{
     .question-man-face-content{background-color: #ffe1dd;
         .question-man-face-wrap{ padding-bottom: 22px;
-            .man-face-coll{ opacity: 0;transform:translate3d(0,30%,0);-webkit-transform:translate3d(0,30%,0);-moz-transform:translate3d(0%,30%,0);-ms-transform:translate3d(0,30%,0);transition:transform 500ms ease, opacity 500ms ease;-webkit-transition:transform 500ms ease, opacity 500ms ease;-moz-transition:transform 500ms ease, opacity 500ms ease;-ms-transition:transform 500ms ease, opacity 500ms ease;
+            .man-face-coll{ opacity: 1;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0%,0,0);-ms-transform:translate3d(0,0,0);transition:transform 500ms ease, opacity 500ms ease;-webkit-transition:transform 500ms ease, opacity 500ms ease;-moz-transition:transform 500ms ease, opacity 500ms ease;-ms-transition:transform 500ms ease, opacity 500ms ease;
                 img{margin-top: -90px;}
                 &.animated { opacity: 1;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);}
             }
 
-            .text-qestion-coll{ padding-top: 70px; padding-bottom: 17px; padding-right: 21px; position: relative; opacity: 0;transform:translate3d(0,30%,0);-webkit-transform:translate3d(0,30%,0);-moz-transform:translate3d(0%,30%,0);-ms-transform:translate3d(0,30%,0);transition:transform 500ms ease, opacity 500ms ease;-webkit-transition:transform 500ms ease, opacity 500ms ease;-moz-transition:transform 500ms ease, opacity 500ms ease;-ms-transition:transform 500ms ease, opacity 500ms ease;
+            .text-qestion-coll{ padding-top: 70px; padding-bottom: 17px; padding-right: 21px; position: relative; opacity: 1;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0%,0,0);-ms-transform:translate3d(0,0,0);transition:transform 500ms ease, opacity 500ms ease;-webkit-transition:transform 500ms ease, opacity 500ms ease;-moz-transition:transform 500ms ease, opacity 500ms ease;-ms-transition:transform 500ms ease, opacity 500ms ease;
                 .text-qestion-convert{border-radius: 20px; background-color: white; padding-top: 20px; padding-left: 20px;box-shadow: 8px 8px 11px 2px rgba(0, 0, 0, 0.21); padding-bottom: 15px;
                     p{font-family: 'PT Sans'; font-size:18px; ;font-weight: 400; line-height: 28px;}
                 }
