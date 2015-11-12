@@ -105,8 +105,11 @@
     .ui-datepicker .ui-datepicker-title{font-weight: bold;color: #535353;font-size: 30px;}
     .ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next{
         width: 22px;height: 22px;border-left:18px solid grey;border-top:13px solid transparent;border-bottom:13px solid transparent;background:none;border-radius:0px;right: 0;top: 22px;
+        &:hover{border-left:18px solid rgba(128, 128, 128, 0.66);}
     }
-    .ui-datepicker .ui-datepicker-prev{border-right:18px solid grey;border-left:none;}
+    .ui-datepicker .ui-datepicker-prev{border-right:18px solid grey;border-left:none;
+        &:hover{border-right:18px solid rgba(128, 128, 128, 0.66);border-left: none;}
+    }
     .ui-datepicker td {border: 2px solid white;
         &.engaged{background: linear-gradient(180deg, rgb(67, 142, 173) 49%, rgb(54, 132, 165) 51%);}
     }

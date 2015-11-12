@@ -434,8 +434,17 @@
   top: 22px;
 }
 
+.datepiker-wrap .ui-datepicker .ui-datepicker-prev:hover, .datepiker-wrap .ui-datepicker .ui-datepicker-next:hover {
+  border-left: 18px solid rgba(128, 128, 128, 0.66);
+}
+
 .datepiker-wrap .ui-datepicker .ui-datepicker-prev {
   border-right: 18px solid grey;
+  border-left: none;
+}
+
+.datepiker-wrap .ui-datepicker .ui-datepicker-prev:hover {
+  border-right: 18px solid rgba(128, 128, 128, 0.66);
   border-left: none;
 }
 
