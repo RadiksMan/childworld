@@ -1,5 +1,5 @@
 // texter and fancybox
-.survey-content{ background-color: #ffe1dd;
+.survey-content{ background-color: transparent;
     .children-box-wrap{
         .children-box-coll{padding: 0; opacity: 0;transform:translate3d(-30%,0,0);-webkit-transform:translate3d(-30%,0,0);-moz-transform:translate3d(-30%,0,0);-ms-transform:translate3d(-30%,0,0);transition:transform 500ms ease, opacity 500ms ease;-webkit-transition:transform 500ms ease, opacity 500ms ease;-moz-transition:transform 500ms ease, opacity 500ms ease;-ms-transition:transform 500ms ease, opacity 500ms ease;
             .box-imges{
@@ -13,12 +13,7 @@
             &.animated { opacity: 1;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);}
 
         }
-
-
-
-
     }
-
 }
 .school-content{background-color: white !important;}
 
@@ -26,7 +21,7 @@
 
 // question man
 .question-man-face{
-    .question-man-face-content{background-color: #ffe1dd;
+    .question-man-face-content{background-color: transparent;
         .question-man-face-wrap{ padding-bottom: 22px;
             .man-face-coll{ opacity: 0;transform:translate3d(0,30%,0);-webkit-transform:translate3d(0,30%,0);-moz-transform:translate3d(0%,30%,0);-ms-transform:translate3d(0,30%,0);transition:transform 500ms ease, opacity 500ms ease;-webkit-transition:transform 500ms ease, opacity 500ms ease;-moz-transition:transform 500ms ease, opacity 500ms ease;-ms-transition:transform 500ms ease, opacity 500ms ease;
                 img{margin-top: -90px;}

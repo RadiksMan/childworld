@@ -4,7 +4,7 @@
 .grafic-section{overflow: hidden;}
 .grafic-wrap{padding-bottom: 60px;
 	.grafic-title{font-weight:normal;font-family: 'PT Sans'; font-size: 36px; color: #000;margin-bottom: 40px;}
-	p{font-weight:normal;font-family: 'PT Sans'; font-size: 24px; color: #000;margin-bottom: 10px;
+	.grafic-body p{font-weight:normal;font-family: 'PT Sans'; font-size: 24px; color: #000;margin-bottom: 10px;
 		span{font-weight: 700;}
 	}
 	.grafic-desc{opacity: 0;transform:translate(-20%,0);transition:opacity 500ms ease, transform 300ms ease;

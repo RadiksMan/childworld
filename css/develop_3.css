@@ -15,7 +15,7 @@
   margin-bottom: 40px;
 }
 
-.grafic-wrap p {
+.grafic-wrap .grafic-body p {
   font-weight: normal;
   font-family: 'PT Sans';
   font-size: 24px;
@@ -23,7 +23,7 @@
   margin-bottom: 10px;
 }
 
-.grafic-wrap p span {
+.grafic-wrap .grafic-body p span {
   font-weight: 700;
 }
 

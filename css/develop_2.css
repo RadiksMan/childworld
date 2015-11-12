@@ -1,5 +1,5 @@
 .survey-content {
-  background-color: #ffe1dd;
+  background-color: transparent;
 }
 
 .survey-content .children-box-wrap .children-box-coll {
@@ -48,7 +48,7 @@
 }
 
 .question-man-face .question-man-face-content {
-  background-color: #ffe1dd;
+  background-color: transparent;
 }
 
 .question-man-face .question-man-face-content .question-man-face-wrap {
