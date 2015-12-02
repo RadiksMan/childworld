@@ -1,9 +1,9 @@
-body {
-  overflow-x: hidden;
-}
-
 .survey-content {
   background-color: transparent;
+}
+
+.question-man-face {
+  z-index: 1;
 }
 
 .survey-content .children-box-wrap .children-box-coll {

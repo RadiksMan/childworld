@@ -492,9 +492,7 @@
 }
 
 .datepiker-wrap .ui-datepicker-today a {
-  -webkit-box-shadow: inset 0px 0px 0px 2px red;
-  -moz-box-shadow: inset 0px 0px 0px 2px red;
-  box-shadow: inset 0px 0px 0px 2px red;
+  border: solid 2px red !important;
 }
 
 .datepiker-wrap .ui-datepicker-other-month {
