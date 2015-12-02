@@ -577,8 +577,97 @@
 
 /*superfixing*/
 @media screen and (max-width: 1024px) {
+  /*head*/
   .header .container {
     width: 100%;
     max-width: 1024px;
   }
+  .header .heade-top .head-title {
+    top: 38px;
+    left: 130px;
+  }
+  .header .heade-top .head-title h2 {
+    font-size: 19px;
+  }
+  .header .head_cloud .head_cloud_text .head-tel .big {
+    font-size: 28px;
+  }
+  .header .head_cloud .head_cloud_text .head-tel span {
+    font-size: 16px;
+  }
+  .header .head_cloud .head_cloud_text p {
+    padding-right: 47px;
+    font-size: 16px;
+    line-height: 15px;
+  }
+  .header .head_cloud .head_cloud_text a {
+    font-size: 16px;
+  }
+  .header .head-center h2 {
+    font-size: 30px;
+  }
+  .header .head-center {
+    padding-top: 0px;
+    padding-bottom: 12px;
+  }
+  /*head*/
+}
+
+@media screen and (max-width: 1024px) {
+  /*head*/
+  .header .container {
+    width: 100%;
+    max-width: 768px;
+  }
+  .header .heade-top .head-title {
+    top: 38px;
+    left: 130px;
+  }
+  .header .heade-top .head-title h2 {
+    font-size: 19px;
+  }
+  .header .col-sm-8 {
+    float: left;
+    width: 100%;
+  }
+  .header .head-logo {
+    text-align: center;
+  }
+  .header .head-logo a {
+    display: inline-block;
+  }
+  .header .heade-top .head-title {
+    position: static;
+    text-align: center;
+  }
+  .header .heade-top .head-title h2 {
+    font-size: 24px;
+  }
+  .header .col-sm-4 {
+    width: 100%;
+    position: relative;
+  }
+  .header .head_cloud_img {
+    text-align: center;
+  }
+  .header .head_cloud_img img {
+    display: inline-block;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  .header .head_cloud_text {
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    -webkit-transform: translate(-50%, -30%) !important;
+    -moz-transform: translate(-50%, -30%) !important;
+    -ms-transform: translate(-50%, -30%) !important;
+    -o-transform: translate(-50%, -30%) !important;
+    transform: translate(-50%, -30%) !important;
+    right: auto !important;
+  }
+  /*head*/
 }
