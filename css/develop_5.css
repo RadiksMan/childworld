@@ -574,3 +574,11 @@
   -o-transform: translate(0, 0);
   transform: translate(0, 0);
 }
+
+/*superfixing*/
+@media screen and (max-width: 1024px) {
+  .header .container {
+    width: 100%;
+    max-width: 1024px;
+  }
+}
