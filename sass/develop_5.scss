@@ -579,7 +579,63 @@
 /*superfixing*/
 
 @media screen and (max-width: 1024px) {
+  /*head*/
   .header{
     .container {width: 100%;max-width: 1024px;}
+    .heade-top .head-title{top: 38px;left: 130px;
+      h2{font-size: 19px;}
+    }
+    .head_cloud .head_cloud_text .head-tel .big{font-size: 28px;}
+    .head_cloud .head_cloud_text .head-tel span{font-size: 16px;}
+    .head_cloud .head_cloud_text p{padding-right: 47px;font-size: 16px;line-height: 15px;}
+    .head_cloud .head_cloud_text a{font-size: 16px;}
+    .head-center h2{font-size: 30px;}
+    .head-center {padding-top: 0px;padding-bottom: 12px;}
+  }
+  /*head*/
+}
+@media screen and (max-width: 1024px) {
+  /*head*/
+  .header{
+    .container {width: 100%;max-width: 768px;}
+    .heade-top .head-title{top: 38px;left: 130px;
+      h2{font-size: 19px;}
+    }
+    .col-sm-8{float: none;width: 100%;}
+    .head-logo{text-align: center;
+      a{display: inline-block;}
+    }
+    .heade-top .head-title{position: static;text-align: center;}
+    .heade-top .head-title h2 {font-size: 24px;}
+    .col-sm-4{width: 100%;position: relative;text-align: center;float: none;}
+    .head_cloud_img{text-align: center;position: relative;display: inline-block;
+      img{display: inline-block;transform: rotate(180deg);}
+      &:after{position: absolute;bottom: 0;width: 100%;box-shadow: 0px 0px 11px 8px #F9F9F9;content: '';left: 0;height: 0px;}
+    }
+    .head_cloud_text{position: absolute !important;left: 50% !important;top: 50% !important;transform: translate(-50%, -30%) !important;right: auto !important;}
+  }
+  /*head*/
+}
+@media screen and (max-width: 480px) {
+  .heade-top .head-title{top: 38px;left: 130px;
+    h2{font-size: 19px;}
+  }
+  .head_cloud .head_cloud_text .head-tel .big{font-size: 28px;}
+  .head_cloud .head_cloud_text .head-tel span{font-size: 14px;}
+  .head_cloud .head_cloud_text p{padding-right: 47px;font-size: 14px;line-height: 13px;}
+  .head_cloud .head_cloud_text a{font-size: 14px;}
+  .head-center h2{font-size: 25px;}
+  .head-center {padding-top: 0px;padding-bottom: 12px;}
+  .head_cloud .head_cloud_text a {font-size: 14px;white-space: pre;}
+}
+@media screen and (max-width: 380px) {
+  .header{
+    .heade-top .head-title h2 {font-size: 21px;}
+    .head-center h2 {font-size: 24px;}
+  }
+}
+@media screen and (max-width: 320px) {
+  .header{
+    .heade-top .head-title h2 {font-size: 20px;}
   }
 }
