@@ -677,7 +677,7 @@
     margin-bottom: 15px;
   }
   .decoration-slider-item .col-sm-4 .decoration-img {
-    width: 49.4%;
+    width: 49.3%;
     display: inline-block;
     vertical-align: top;
   }
@@ -696,6 +696,9 @@
   }
   .grafic-form-wrap .input-wrap, .grafic-form-wrap .input-wrap-submit {
     width: 49.4%;
+  }
+  .grafic-desc.col-sm-5 {
+    text-align: center;
   }
 }
 
