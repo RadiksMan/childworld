@@ -602,6 +602,8 @@
     .portfolio-form-wrap .col-sm-4{width: 100%;}
     .portfolio-title{z-index: 1;text-shadow:0 0 5px rgba(0,0,0,.6);}
 
+    .grafic-body .col-sm-5, .grafic-body .col-sm-7{width: 100%;}
+
 }
 
 @media screen and (max-width: 767px){
@@ -613,9 +615,15 @@
     .decoration-slider-item .col-sm-8{margin-bottom: 15px;}
     .decoration-slider-item .col-sm-4 .decoration-img{width: 49.4%;display: inline-block;vertical-align: top;}
 
+    .grafic-form-wrap{text-align: center;}
+    .grafic-form-wrap .input-wrap, .grafic-form-wrap .input-wrap-submit{width: 32%;display: inline-block;}
+
 }
 
 @media screen and (max-width: 666px){
+
+    .grafic-form-wrap .input-wrap{margin-bottom: 10px;}
+    .grafic-form-wrap .input-wrap, .grafic-form-wrap .input-wrap-submit{width: 49.4%;}
 
 }
 
@@ -624,6 +632,8 @@
     .portfolio .portfolio-title h2{font-size: 36px;margin-bottom: 50px;}
     .portfolio .portfolio-title p{font-size: 18px;}
     .portfolio .portfolio-title p span{padding-bottom: 30px;}
+
+    .grafic-form-wrap .input-wrap, .grafic-form-wrap .input-wrap-submit{width: 100%;}
 
 }
 
