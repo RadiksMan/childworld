@@ -22,72 +22,72 @@
             <div class="coveralbum-slider-main section-animate">
                 <div class="coveralbum-slider-item animate-it">
                     <div class="coveralbum-slider-img">
-                        <a href="#" class="fancybox">
+                        <a href="#" class="fancybox" rel="gallery2">
                             <img src="images/coveralbum-slider-img1.png" alt="" />
                         </a>
                     </div>
                     <div class="coveralbum-slider-img">
-                        <a href="images/coveralbum-slider-img1.png" class="fancybox">
+                        <a href="images/coveralbum-slider-img1.png" class="fancybox" rel="gallery2">
                             <img src="images/coveralbum-slider-img1.png" alt="" />
                         </a>
                     </div>
                 </div>
                 <div class="coveralbum-slider-item animate-it">
                     <div class="coveralbum-slider-img">
-                        <a href="images/coveralbum-slider-img2.png" class="fancybox">
+                        <a href="images/coveralbum-slider-img2.png" class="fancybox" rel="gallery2">
                             <img src="images/coveralbum-slider-img2.png" alt="" />
                         </a>
                     </div>
                     <div class="coveralbum-slider-img">
-                        <a href="images/coveralbum-slider-img2.png" class="fancybox">
+                        <a href="images/coveralbum-slider-img2.png" class="fancybox" rel="gallery2">
                             <img src="images/coveralbum-slider-img2.png" alt="" />
                         </a>
                     </div>
                 </div>
                 <div class="coveralbum-slider-item animate-it">
                     <div class="coveralbum-slider-img">
-                        <a href="images/coveralbum-slider-img3.png" class="fancybox">
+                        <a href="images/coveralbum-slider-img3.png" class="fancybox" rel="gallery2">
                             <img src="images/coveralbum-slider-img3.png" alt="" />
                         </a>
                     </div>
                     <div class="coveralbum-slider-img">
-                        <a href="images/coveralbum-slider-img3.png" class="fancybox">
+                        <a href="images/coveralbum-slider-img3.png" class="fancybox" rel="gallery2">
                             <img src="images/coveralbum-slider-img3.png" alt="" />
                         </a>
                     </div>
                 </div>
                 <div class="coveralbum-slider-item animate-it">
                     <div class="coveralbum-slider-img">
-                        <a href="images/coveralbum-slider-img4.png" class="fancybox">
+                        <a href="images/coveralbum-slider-img4.png" class="fancybox" rel="gallery2">
                             <img src="images/coveralbum-slider-img4.png" alt="" />
                         </a>
                     </div>
                     <div class="coveralbum-slider-img">
-                        <a href="images/coveralbum-slider-img4.png" class="fancybox">
+                        <a href="images/coveralbum-slider-img4.png" class="fancybox" rel="gallery2">
                             <img src="images/coveralbum-slider-img4.png" alt="" />
                         </a>
                     </div>
                 </div>
                 <div class="coveralbum-slider-item animate-it">
                     <div class="coveralbum-slider-img">
-                        <a href="images/coveralbum-slider-img2.png" class="fancybox">
+                        <a href="images/coveralbum-slider-img2.png" class="fancybox" rel="gallery2">
                             <img src="images/coveralbum-slider-img2.png" alt="" />
                         </a>
                     </div>
                     <div class="coveralbum-slider-img">
-                        <a href="images/coveralbum-slider-img2.png" class="fancybox">
+                        <a href="images/coveralbum-slider-img2.png" class="fancybox" rel="gallery2">
                             <img src="images/coveralbum-slider-img2.png" alt="" />
                         </a>
                     </div>
                 </div>
                 <div class="coveralbum-slider-item animate-it">
                     <div class="coveralbum-slider-img">
-                        <a href="images/coveralbum-slider-img3.png" class="fancybox">
+                        <a href="images/coveralbum-slider-img3.png" class="fancybox" rel="gallery2">
                             <img src="images/coveralbum-slider-img3.png" alt="" />
                         </a>
                     </div>
                     <div class="coveralbum-slider-img">
-                        <a href="images/coveralbum-slider-img3.png" class="fancybox">
+                        <a href="images/coveralbum-slider-img3.png" class="fancybox" rel="gallery2">
                             <img src="images/coveralbum-slider-img3.png" alt="" />
                         </a>
                     </div>
