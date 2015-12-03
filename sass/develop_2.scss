@@ -194,7 +194,9 @@
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
 }
-
+.survey-content .children-box-wrap .children-box-coll .box-imges a img { max-width: 48%;}
+.survey-content .children-box-wrap .children-box-coll{text-align: center;}
+.quality-work img{max-width: 100%;}
 
 
 @media screen and (max-width: 992px){
