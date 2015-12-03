@@ -201,6 +201,8 @@
 
 .survey-content .children-box-wrap .children-box-coll {
   text-align: center;
+  display: inline-block;
+  width: 49.3%;
 }
 
 .quality-work img {
@@ -256,5 +258,11 @@
   }
   .question-man-face .question-man-face-content .question-man-face-wrap {
     padding: 25px;
+  }
+  .survey-content .children-box-wrap {
+    text-align: center;
+  }
+  .survey-content .children-box-wrap .children-box-coll {
+    width: 100%;
   }
 }

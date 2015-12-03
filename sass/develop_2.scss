@@ -195,7 +195,7 @@
   -ms-transform: translate3d(0, 0, 0);
 }
 .survey-content .children-box-wrap .children-box-coll .box-imges a img { max-width: 48%;}
-.survey-content .children-box-wrap .children-box-coll{text-align: center;}
+.survey-content .children-box-wrap .children-box-coll{text-align: center;display: inline-block;width: 49.3%;}
 .quality-work img{max-width: 100%;}
 
 
@@ -217,6 +217,9 @@
   .quality-work .quality-work-content .quality-work-wrap .text-quality-coll .text-quality-convert p {text-align: justify; padding-bottom: 20px;}
   .question-man-face .question-man-face-content .question-man-face-wrap .man-face-coll img {margin-top: 0px;}
   .question-man-face .question-man-face-content .question-man-face-wrap { padding:25px;}
+
+  .survey-content .children-box-wrap{text-align: center;}
+  .survey-content .children-box-wrap .children-box-coll{width: 100%;}
 
 }
 @media screen and (max-width: 666px){
