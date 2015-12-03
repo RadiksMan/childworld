@@ -314,6 +314,14 @@
 
 .quastionform-wrap .quastionform-top {
   padding-left: 83px;
+  display: inline-block;
+  vertical-align: top;
+}
+.vatsap-icon-main{display: inline-block;vertical-align: top;
+  a{display: table;width: 50px;height: 50px;border-radius: 50%;background-color:#60b82d;transition:background-color 300ms ease;
+    span{display: table-cell;padding: 11px;}
+    &:hover{background-color: #34af23;}
+  }
 }
 
 .quastionform-wrap .quastionform-top span {
@@ -371,6 +379,22 @@
   -ms-transform: translate(0, 0);
   -o-transform: translate(0, 0);
   transform: translate(0, 0);
+}
+
+.socials-wrap{padding-left: 80px;margin-top: -30px;
+  .social-item{display: inline-block;text-align: center;margin-right: 10px;
+    &:last-child{margin-right: 0;}
+    a{display: table;width: 60px;height: 60px;border-radius: 50%;transition:background-color 300ms ease;
+      span{display: table-cell;padding: 0 10px;vertical-align: middle;}
+      &.vk-icon{background-color: #0b4385;
+        &:hover{background-color: #1571de;}
+      }
+      &.instagram-icon{background-color: #4090db;
+        span{padding: 0 15px;}
+        &:hover{background-color: #2d6599;}
+      }
+    }
+  }
 }
 
 .datepiker-wrap {
@@ -673,6 +697,7 @@
     .quastionform-wrap .quastionform-title h2 {font-size: 40px;}
     .quastionform-top span {font-size: 21px;color: #000;}
     .quastionform-top {padding-left: 50px;}
+
     .quastionform-row-bottom {margin-top: 10px;margin-left: 0;}
     .quastionform-row-bottom .quastionform-top {padding-left: 50px;}
     .quastionform-row-bottom .quastionform-top p{padding-top: 0;}
