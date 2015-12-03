@@ -34,11 +34,11 @@
                             <p>ассистент фотографа, специалист по работе с детьми</p>
                         </div>
                         <div class="vatsap-icon-main">
-                            <a href="#" class="vatsap-icon">
+                            <span class="vatsap-icon">
                                 <span>
                                     <img src="images/vatsap-icon.png" alt="" />
                                 </span>
-                            </a>
+                            </span>
                         </div>
                     </div>
                 </div>
