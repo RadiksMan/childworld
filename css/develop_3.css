@@ -186,11 +186,11 @@
   font-weight: 700;
   color: #fff;
   opacity: 0;
-  -webkit-transform: translate(-30%, 0);
-  -moz-transform: translate(-30%, 0);
-  -ms-transform: translate(-30%, 0);
-  -o-transform: translate(-30%, 0);
-  transform: translate(-30%, 0);
+  -webkit-transform: translate(0, 30%);
+  -moz-transform: translate(0, 30%);
+  -ms-transform: translate(0, 30%);
+  -o-transform: translate(0, 30%);
+  transform: translate(0, 30%);
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -o-transition: all 500ms ease;
@@ -254,11 +254,11 @@
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
   opacity: 0;
-  -webkit-transform: translate(20%, 0);
-  -moz-transform: translate(20%, 0);
-  -ms-transform: translate(20%, 0);
-  -o-transform: translate(20%, 0);
-  transform: translate(20%, 0);
+  -webkit-transform: translate(0, 20%);
+  -moz-transform: translate(0, 20%);
+  -ms-transform: translate(0, 20%);
+  -o-transform: translate(0, 20%);
+  transform: translate(0, 20%);
 }
 
 .portfolio .portfolio-form.animated {

@@ -18,7 +18,9 @@
                 </div>
             </div>
             <div class="col-sm-6 quality-work-img-coll animate-it" >
-                <img src="images/quality-child.jpg" alt="">
+                <a href="images/quality-child.jpg" class="fancybox" rel="gallery6">
+                    <img src="images/quality-child.jpg" alt="">
+                </a>
             </div>
             <div class="col-sm-6 text-quality-coll animate-it" >
                 <div class="text-quality-convert">

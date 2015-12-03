@@ -18,10 +18,10 @@
             </div>
             <div class="col-sm-6 children-box-coll animate-it">
                 <div class="box-imges">
-                    <a href="images/child-1.jpg" class="fancybox">
+                    <a href="images/child-1.jpg" class="fancybox" rel="gallery5">
                         <img src="images/child-1.jpg" alt="" />
                     </a>
-                    <a href="images/child-2.jpg" class="fancybox">
+                    <a href="images/child-2.jpg" class="fancybox" rel="gallery5">
                         <img src="images/child-2.jpg" alt="" />
                     </a>
                 </div>
@@ -29,10 +29,10 @@
             </div>
             <div class="col-sm-6 children-box-coll animate-it">
                 <div class="box-imges">
-                    <a href="images/child-3.jpg" class="fancybox">
+                    <a href="images/child-3.jpg" class="fancybox" rel="gallery5">
                         <img src="images/child-3.jpg" alt="" />
                     </a>
-                    <a href="images/child-4.jpg" class="fancybox">
+                    <a href="images/child-4.jpg" class="fancybox" rel="gallery5">
                         <img src="images/child-4.jpg" alt="" />
                     </a>
                 </div>

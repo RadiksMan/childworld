@@ -168,18 +168,12 @@ function validationCall(form){
   var formSur = thisForm.serialize();
 
     $.ajax({
-        url : thisForm.attr('action'),
+        url : ajaxurl,
         data: formSur,
         method:'POST',
         success : function(data){
-            if ( data.trim()!='true') {
-                thisForm.trigger("reset");
-                popNext();
-            }
-            else {
-               $(this).trigger('reset');
-            }
-
+            thisForm.trigger("reset");
+            popNext();
         }
     });
 
@@ -262,7 +256,8 @@ function decorationSlider(){
         slidesToScroll: 1,
         autoplay:false,
         fade: true,
-        cssEase: 'ease-out'
+        cssEase: 'ease-out',
+        adaptiveHeight:true
     });
 
 }
@@ -274,7 +269,21 @@ function coveralbumSlider(){
         arrows:true,
         infinite: true,
         slidesToShow:4,
-        slidesToScroll:1
+        slidesToScroll:1,
+        responsive:[
+            {
+                breakpoint: 768,
+                settings:{
+                    slidesToShow:3
+                }
+            },
+            {
+                breakpoint: 480,
+                settings:{
+                    slidesToShow:2
+                }
+            }
+        ]
     });
 
 };
