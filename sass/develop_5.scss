@@ -593,8 +593,16 @@
     .head-center {padding-top: 0px;padding-bottom: 12px;}
   }
   /*head*/
+
+  /*quastionform*/
+  .quastionform{
+    .quastionform-wrap {padding-bottom: 42px;}
+    .container {width: 100%;max-width: 1024px;}
+    .quastionform-wrap .quastionform-title h2 {font-size: 50px;}
+  }
+  /*quastionform*/
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   /*head*/
   .header{
     .container {width: 100%;max-width: 768px;}
@@ -615,6 +623,67 @@
     .head_cloud_text{position: absolute !important;left: 50% !important;top: 50% !important;transform: translate(-50%, -30%) !important;right: auto !important;}
   }
   /*head*/
+
+  /*quastionform*/
+  .quastionform{
+    .quastionform-wrap {padding-bottom: 30px;}
+    .container {width: 100%;max-width: 768px;}
+    .quastionform-wrap .quastionform-title h2 {font-size: 48px;}
+    .col-sm-2{width: 20%;float: left;}
+    .col-sm-8 {width: 80%;float: left;}
+  }
+  /*quastionform*/
+
+    /*datepicker*/
+  .datepicker{
+    .container {width: 100%;max-width: 768px;}
+    .ui-datepicker .ui-datepicker-title{font-size: 24px;}
+    .datepiker-wrap .ui-state-default, .datepiker-wrap .ui-widget-content .ui-state-default, .datepiker-wrap .ui-widget-header .ui-state-default{font-size: 28px;line-height: 48px;}
+    .datepiker-wrap .datepiker-sub-text {font-size: 16px;margin-bottom: 15px;}
+    .datepiker-wrap .datepiker-text-row .datepiker-text-desc p{padding-top: 0;}
+    .datepiker-wrap .datepiker-text-row .datepiker-text-desc {font-size: 16px;}
+  }
+  /*datepicker*/
+
+  /*footer*/
+  .footer{overflow: hidden;
+     .container {width: 100%;max-width: 768px;}
+     .if_quastion_wrap .if_quastion_title h5 {font-size: 53px;}
+     .if_quastion_wrap .if_quastion_right {font-size: 20px;padding-top: 21px;}
+     .col-sm-7{float: none;width: 100%;text-align: center;}
+     .col-sm-5{float: none;width: 100%;text-align: center;}
+     .col-sm-4,.col-sm-2{float: none;width: 100%;text-align: center;margin-left: 0;}
+  }
+  /*/footer*/
+
+  /*sertification*/
+  .sertification{
+    .sertification-wrap {padding-bottom: 40px;padding-top: 25px;}
+    .container {width: 100%;max-width: 768px;}
+    .col-sm-6,.col-sm-3{float: none;width: 100%;text-align: center;margin:0;}
+    .sertification-text{padding-bottom: 20px;font-size: 24px;}
+    .sertification-text p {padding-top: 9px;}
+    .sertification-img{padding-bottom: 20px;}
+  }
+  /*sertification*/
+}
+@media screen and (max-width: 660px) {
+    /*quastionform*/
+  .quastionform{
+    .quastionform-wrap .quastionform-title h2 {font-size: 40px;}
+    .quastionform-top span {font-size: 21px;color: #000;}
+    .quastionform-top {padding-left: 50px;}
+    .quastionform-row-bottom {margin-top: 10px;margin-left: 0;}
+    .quastionform-row-bottom .quastionform-top {padding-left: 50px;}
+    .quastionform-row-bottom .quastionform-top p{padding-top: 0;}
+  }
+  /*quastionform*/
+
+  /*datepicker*/
+  .datepicker{
+    .datepiker-wrap .datepiker-text-row .datepiker-text-desc p{padding-top: 7px;}
+  }
+  /*datepicker*/
 }
 @media screen and (max-width: 480px) {
   .heade-top .head-title{top: 38px;left: 130px;
@@ -627,15 +696,58 @@
   .head-center h2{font-size: 25px;}
   .head-center {padding-top: 0px;padding-bottom: 12px;}
   .head_cloud .head_cloud_text a {font-size: 14px;white-space: pre;}
+
+    /*quastionform*/
+  .quastionform{
+    .quastionform-row-bottom .quastionform-top,.quastionform-top{padding-left: 38px;}
+    .quastionform-img{height: 110px;width: 110px;}
+    .quastionform-top span {font-size: 19px;}
+    .quastionform-top p {font-size: 15px;}
+    .quastionform-wrap .quastionform-title h2 {font-size: 34px;}
+  }
+  /*quastionform*/
+
+  /*footer*/
+  .footer{
+    .if_quastion_wrap .if_quastion_title h5 {font-size: 43px;}
+  }
+  /*/footer*/
 }
 @media screen and (max-width: 380px) {
   .header{
     .heade-top .head-title h2 {font-size: 21px;}
     .head-center h2 {font-size: 24px;}
   }
+
+  /*datepicker*/
+  .datepicker{
+    .datepiker-wrap .datepiker-text-row .datepiker-text-desc p{padding-top: 7px;}
+    .datepiker-wrap .ui-state-default,.datepiker-wrap .ui-widget-content .ui-state-default,.datepiker-wrap .ui-widget-header .ui-state-default {font-size: 23px;line-height: 42px;}
+    .datepiker-wrap .datepiker-kalendar {min-height: 395px;position: relative;z-index: 1;}
+  }
+
+  /*datepicker*/
 }
 @media screen and (max-width: 320px) {
   .header{
     .heade-top .head-title h2 {font-size: 20px;}
   }
+    /*quastionform*/
+  .quastionform{
+    .quastionform-row-bottom .quastionform-top,.quastionform-top{padding-left: 38px;}
+    .quastionform-img{height: 80px;width: 80px;}
+    .quastionform-top span {font-size: 16px;}
+    .quastionform-top p {font-size: 14px;}
+    .quastionform-wrap .quastionform-title h2 {font-size: 30px;}
+  }
+  /*quastionform*/
+
+  /*datepicker*/
+  .datepicker{
+    .ui-datepicker .ui-datepicker-title {font-size: 20px;}
+    .datepiker-wrap .ui-datepicker .ui-datepicker-prev, .datepiker-wrap .ui-datepicker .ui-datepicker-next{top: 12px;}
+  }
+  /*datepicker*/
+  .sertification .sertification-text{font-size: 17px;}
+
 }
