@@ -670,6 +670,14 @@
   .portfolio .portfolio-image-wrap {
     right: 0;
   }
+  .decoration-slider-item .col-sm-8 {
+    margin-bottom: 15px;
+  }
+  .decoration-slider-item .col-sm-4 .decoration-img {
+    width: 49.4%;
+    display: inline-block;
+    vertical-align: top;
+  }
 }
 
 @media screen and (max-width: 479px) {
