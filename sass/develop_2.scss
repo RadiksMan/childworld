@@ -194,8 +194,9 @@
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
 }
-.survey-content .children-box-wrap .children-box-coll .box-imges a img { max-width: 48%;}
-.survey-content .children-box-wrap .children-box-coll{text-align: center;display: inline-block;width: 49.3%;}
+.survey-content .children-box-wrap .children-box-coll .box-imges a {max-width: 49.3%;display: inline-block;vertical-align: middle;}
+.survey-content .children-box-wrap .children-box-coll{display: inline-block;width: 49.3%;float: none;}
+.survey-content .children-box-wrap{text-align: center;}
 .quality-work img{max-width: 100%;}
 
 

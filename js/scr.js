@@ -270,6 +270,7 @@ function coveralbumSlider(){
         infinite: true,
         slidesToShow:4,
         slidesToScroll:1,
+        adaptiveHeight:true,
         responsive:[
             {
                 breakpoint: 768,
