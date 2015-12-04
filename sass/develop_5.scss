@@ -384,14 +384,14 @@
 .socials-wrap{padding-left: 80px;margin-top: -30px;
   .social-item{display: inline-block;text-align: center;margin-right: 10px;
     &:last-child{margin-right: 0;}
-    a{display: table;width: 60px;height: 60px;border-radius: 50%;transition:background-color 300ms ease;
-      span{display: table-cell;padding: 0 10px;vertical-align: middle;}
-      &.vk-icon{background-color: #0b4385;
-        &:hover{background-color: #1571de;}
+    a{display: table;width: 60px;height: 60px;border-radius: 50%;transition:background-color 300ms ease,opacity 300ms ease;
+      span{display: table-cell;/*padding: 0 10px;*/vertical-align: middle;}
+      &.vk-icon{/*background-color: #0b4385;*/
+        &:hover{/*background-color: #1571de;*/opacity: .7;}
       }
-      &.instagram-icon{background-color: #4090db;
-        span{padding: 0 15px;}
-        &:hover{background-color: #2d6599;}
+      &.instagram-icon{/*background-color: #4090db;*/
+        span{/*padding: 0 15px;*/}
+        &:hover{/*background-color: #2d6599;*/opacity: .7;}
       }
     }
   }
@@ -626,6 +626,9 @@
   }
   /*quastionform*/
 }
+@media screen and (max-width: 992px) {
+  .vatsap-icon-main{position: absolute;top: 0;right: 0;}
+}
 @media screen and (max-width: 768px) {
   /*head*/
   .header{
@@ -690,8 +693,12 @@
     .sertification-img{padding-bottom: 20px;}
   }
   /*sertification*/
+
+   .vatsap-icon-main{position: absolute;top: 0;right: 10%;}
+   .socials-wrap{    text-align: center;}
 }
 @media screen and (max-width: 660px) {
+  .socials-wrap{padding-top: 40px;}
     /*quastionform*/
   .quastionform{
     .quastionform-wrap .quastionform-title h2 {font-size: 40px;}
@@ -699,7 +706,7 @@
     .quastionform-top {padding-left: 50px;}
 
     .quastionform-row-bottom {margin-top: 10px;margin-left: 0;}
-    .quastionform-row-bottom .quastionform-top {padding-left: 50px;}
+    .quastionform-row-bottom .quastionform-top {padding-left: 50px;padding-right: 17%;}
     .quastionform-row-bottom .quastionform-top p{padding-top: 0;}
   }
   /*quastionform*/
@@ -709,8 +716,10 @@
     .datepiker-wrap .datepiker-text-row .datepiker-text-desc p{padding-top: 7px;}
   }
   /*datepicker*/
+
 }
 @media screen and (max-width: 480px) {
+  .vatsap-icon-main{right: 5%;}
   .heade-top .head-title{top: 38px;left: 130px;
     h2{font-size: 19px;}
   }

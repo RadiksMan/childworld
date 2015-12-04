@@ -49,14 +49,14 @@
                         <div class="social-item">
                             <a href="https://vk.com/club107011596" class="vk-icon">
                                 <span>
-                                    <img src="images/vk-icon.png" alt="" />
+                                    <img src="images/vk-icon_2.png" alt="" />
                                 </span>
                             </a>
                         </div>
                         <div class="social-item">
                             <a href="https://www.instagram.com/mig_detstva/" class="instagram-icon">
                                 <span>
-                                    <img src="images/instagram-icon.png" alt="" />
+                                    <img src="images/instagram-icon_2.png" alt="" />
                                 </span>
                             </a>
                         </div>
