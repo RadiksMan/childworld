@@ -647,6 +647,12 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .topSlider-img img {
+    max-width: 1200px;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .portfolio .portfolio-form {
     margin-top: -120px;
@@ -722,6 +728,9 @@
   }
   .portfolio .portfolio-title p span {
     padding-bottom: 30px;
+  }
+  .topSlider-description .topSlider-description-item {
+    font-size: 10px;
   }
   .grafic-form-wrap .input-wrap, .grafic-form-wrap .input-wrap-submit {
     width: 100%;
