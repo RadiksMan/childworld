@@ -577,6 +577,10 @@
 .fancybox-next:before{right: 8px;}
 .fancybox-next span{background-position: right top;}
 
+/*fix 07.12*/
+
+
+
 /* /spec backgrounds */
 
 @media screen and (max-width: 1366px) {
@@ -640,6 +644,8 @@
 
     .grafic-form-wrap .input-wrap, .grafic-form-wrap .input-wrap-submit{width: 100%;}
 
+  /*fix 07.12*/
+  .topSlider{max-height: 340px}
 }
 
 @media screen and (max-width: 374px){

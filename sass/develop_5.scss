@@ -746,6 +746,21 @@
     .if_quastion_wrap .if_quastion_title h5 {font-size: 43px;}
   }
   /*/footer*/
+
+  /*sertification*/
+  .sertification{
+    .sertification-text {font-size: 15px;}
+    .sertification-text p {padding-top: 0px;}
+    .sertification-img{
+      img{max-width: 60%;}
+    }
+  }
+  /*sertification*/
+
+  /*critical fix 07.12*/
+  .question-man-face .question-man-face-content .question-man-face-wrap .man-face-coll img {max-width: 50%;}
+  .topSlider-img img {max-height: 100% !important;}
+  .sertification .col-sm-3{float: left;width: 50%;}
 }
 @media screen and (max-width: 380px) {
   .header{
@@ -783,5 +798,8 @@
   }
   /*datepicker*/
   .sertification .sertification-text{font-size: 17px;}
+
+
+
 
 }
