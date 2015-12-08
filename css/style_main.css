@@ -762,8 +762,4 @@
   .grafic-form-wrap .input-wrap, .grafic-form-wrap .input-wrap-submit {
     width: 100%;
   }
-  /*fix 07.12*/
-  .topSlider {
-    max-height: 340px;
-  }
 }
