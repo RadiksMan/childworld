@@ -425,36 +425,38 @@
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  -webkit-transition: background-color 300ms ease;
-  -moz-transition: background-color 300ms ease;
-  -o-transition: background-color 300ms ease;
-  transition: background-color 300ms ease;
+  -webkit-transition: background-color 300ms ease,opacity 300ms ease;
+  -moz-transition: background-color 300ms ease,opacity 300ms ease;
+  -o-transition: background-color 300ms ease,opacity 300ms ease;
+  transition: background-color 300ms ease,opacity 300ms ease;
 }
 
 .socials-wrap .social-item a span {
   display: table-cell;
-  padding: 0 10px;
+  /*padding: 0 10px;*/
   vertical-align: middle;
 }
 
 .socials-wrap .social-item a.vk-icon {
-  background-color: #0b4385;
+  /*background-color: #0b4385;*/
 }
 
 .socials-wrap .social-item a.vk-icon:hover {
-  background-color: #1571de;
+  /*background-color: #1571de;*/
+  opacity: .7;
 }
 
 .socials-wrap .social-item a.instagram-icon {
-  background-color: #4090db;
+  /*background-color: #4090db;*/
 }
 
 .socials-wrap .social-item a.instagram-icon span {
-  padding: 0 15px;
+  /*padding: 0 15px;*/
 }
 
 .socials-wrap .social-item a.instagram-icon:hover {
-  background-color: #2d6599;
+  /*background-color: #2d6599;*/
+  opacity: .7;
 }
 
 .datepiker-wrap {
@@ -709,6 +711,14 @@
   /*quastionform*/
 }
 
+@media screen and (max-width: 992px) {
+  .vatsap-icon-main {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
   /*head*/
   .header .container {
@@ -882,9 +892,20 @@
     padding-bottom: 20px;
   }
   /*sertification*/
+  .vatsap-icon-main {
+    position: absolute;
+    top: 0;
+    right: 10%;
+  }
+  .socials-wrap {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 660px) {
+  .socials-wrap {
+    padding-top: 40px;
+  }
   /*quastionform*/
   .quastionform .quastionform-wrap .quastionform-title h2 {
     font-size: 40px;
@@ -902,6 +923,7 @@
   }
   .quastionform .quastionform-row-bottom .quastionform-top {
     padding-left: 50px;
+    padding-right: 17%;
   }
   .quastionform .quastionform-row-bottom .quastionform-top p {
     padding-top: 0;
@@ -915,6 +937,9 @@
 }
 
 @media screen and (max-width: 480px) {
+  .vatsap-icon-main {
+    right: 5%;
+  }
   .heade-top .head-title {
     top: 38px;
     left: 130px;
@@ -970,6 +995,28 @@
     font-size: 43px;
   }
   /*/footer*/
+  /*sertification*/
+  .sertification .sertification-text {
+    font-size: 15px;
+  }
+  .sertification .sertification-text p {
+    padding-top: 0px;
+  }
+  .sertification .sertification-img img {
+    max-width: 60%;
+  }
+  /*sertification*/
+  /*critical fix 07.12*/
+  .question-man-face .question-man-face-content .question-man-face-wrap .man-face-coll img {
+    max-width: 50%;
+  }
+  .topSlider-img img {
+    max-height: 100% !important;
+  }
+  .sertification .col-sm-3 {
+    float: left;
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 380px) {

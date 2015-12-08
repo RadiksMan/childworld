@@ -577,6 +577,10 @@
 .fancybox-next:before{right: 8px;}
 .fancybox-next span{background-position: right top;}
 
+/*fix 07.12*/
+
+
+
 /* /spec backgrounds */
 
 @media screen and (max-width: 1366px) {
@@ -593,7 +597,7 @@
 }
 
 @media screen and (max-width: 1024px){
-
+  .topSlider-img img {max-width: 1200px;}
 }
 
 @media screen and (max-width: 992px){
@@ -648,9 +652,12 @@
     .portfolio .portfolio-title h2{font-size: 36px;margin-bottom: 50px;}
     .portfolio .portfolio-title p{font-size: 18px;}
     .portfolio .portfolio-title p span{padding-bottom: 30px;}
+    .topSlider-description .topSlider-description-item { font-size: 10px;}
 
     .grafic-form-wrap .input-wrap, .grafic-form-wrap .input-wrap-submit{width: 100%;}
 
+  /*fix 07.12*/
+  .topSlider{max-height: 340px}
 }
 
 @media screen and (max-width: 374px){

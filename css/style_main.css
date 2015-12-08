@@ -622,6 +622,7 @@
   background-position: right top;
 }
 
+/*fix 07.12*/
 /* /spec backgrounds */
 @media screen and (max-width: 1366px) {
   .spec-background .top-shadow:before, .spec-background .top-shadow:after, .spec-background .bottom-shadow:before, .spec-background .bottom-shadow:after {
@@ -644,6 +645,12 @@
   .decoration-slider-main .slick-arrow.slick-next, .coveralbum-slider-main .slick-arrow.slick-next {
     left: auto;
     right: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .topSlider-img img {
+    max-width: 1200px;
   }
 }
 
@@ -749,7 +756,14 @@
   .portfolio .portfolio-title p span {
     padding-bottom: 30px;
   }
+  .topSlider-description .topSlider-description-item {
+    font-size: 10px;
+  }
   .grafic-form-wrap .input-wrap, .grafic-form-wrap .input-wrap-submit {
     width: 100%;
+  }
+  /*fix 07.12*/
+  .topSlider {
+    max-height: 340px;
   }
 }
