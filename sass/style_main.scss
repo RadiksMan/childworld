@@ -629,6 +629,18 @@
 
     .grafic-desc.col-sm-5{text-align: center;}
 
+    /* slider */
+
+    .topSlider-img img{max-width: 100%;}
+    .topSlider-description{position: static;padding-bottom: 20px;}
+    .topSlider-main .slick-dots li button{border:1px solid rgba(0, 0, 0, .15);}
+    .topSlider-main .slick-arrow{top:20px;transform:scale(.6);
+      &.slick-next{right: 2px;}
+      &.slick-prev{left: 2px;}
+    }
+
+    /* /slider */
+
 }
 
 @media screen and (max-width:479px){
